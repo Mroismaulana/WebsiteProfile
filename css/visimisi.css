@@ -1,0 +1,29 @@
+.foto {
+    position: absolute;
+    margin-top: 10px;
+    width: 225px;
+    height: 225px;
+    left: 36px;
+    top: 59px;
+    background-color: aqua;
+    border-radius: 25px;
+}
+
+.foto img {
+    border-radius: 25px;
+}
+cfgfgssfwfwefwef
+
+.isinya {
+    position: absolute;
+    width: 76%;
+    height: 86%;
+    left: 213px;
+    top: 59px;
+    background-color: azure;
+    margin-left: 70px;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 25px;
+    padding: 15px;
+}

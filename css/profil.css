@@ -1,0 +1,45 @@
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    /* background-color: lightgray; */
+  }
+  
+  .all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .browser {
+    background: white;
+    width: 233px;
+    float: lef;
+  }
+  
+  .browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+  .browser-info {
+    position: absolute;
+    top: 18.4%;
+    width: 77.5%;
+    height: 293px;
+    margin: 10px;
+    left: 285px;
+    font-size: 90%;
+    background: #fafafa;
+    float: left;
+  }
+  .browser-infol {
+    position: absolute;
+    top:65%;
+    width: 77.5%;
+    height: 293px;
+    margin: 10px;
+    left: 285px;
+    font-size: 90%;
+    background: #fafafa;
+    float: left;
+  }
+  
+  
