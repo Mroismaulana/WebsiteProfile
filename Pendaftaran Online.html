@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMK Assyafi'iyyah 01 Jakarta</title>
-    
+
     <link rel="shortcut icon" href="./img/D2.jpg" type="image/x-icon">
 
     <!-- CSS -->
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="./css/daftaronline.css">
     <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -22,7 +24,7 @@
                 <li><img src="img/Logo.png" width="80px"></li>
                 <li><a href="Menu Home.html">Smk Asyafi'iyyah 01 Jakarta</a></li>
                 <li><a href="./login.html">Admin</a></li>
-                <li><a class="active" href="">Visi Misi</a></li>
+                <li><a href="">Visi Misi</a></li>
                 <li><a href="Profil Guru.html">Profil Guru</a></li>
                 <li class="dropdown">
                     <a href="javascript:void(0)" class="dropbtn">Kegiatan</a>
@@ -40,7 +42,7 @@
                         <a href="Ujian.html">Ujian Berbasis Komputer</a>
                     </div>
                 </li>
-                <li><a href="#Pendaftaran Online">Pendaftaran Online</a></li>
+                <li><a class="active" href="#Pendaftaran Online">Pendaftaran Online</a></li>
                 <li><a href="Statistik.html">Statistik Calon Siswa Baru</a></li>
             </ul>
         </nav>
@@ -50,14 +52,19 @@
         <div class="kotak-daftar">
             <h1 style="text-align: center;">Form Pendaftaran Siswa Baru</h1><br>
             <form action="" method="post">
-                
-                <div class="mb-3">
+                <div class="row">
                     <h3 class="teks-h3">Data Diri</h3>
-                    <label for="NamaLengkap" class="form-label fs-6">Nama Lengkap:</label><br>
-                    <input type="text" name="NamaLengkapSiswa" id="NamaLengkap" placeholder="Masukan Nama Lengkap">
+                    <div class="col mb-3">
+                        <label for="NamaLengkap" class="form-label fs-6">Nama Lengkap:</label><br>
+                        <input type="text" name="NamaLengkapSiswa" id="NamaLengkap" placeholder="Masukan Nama Lengkap">
+                    </div>
+                    <div class="col mb-3">
+                        <label for="NomorIdentitas" class="form-label fs-6">Nomor Identitas (NIK):</label>
+                    </div>
                 </div>
             </form>
         </div>
     </div>
 </body>
+
 </html>
