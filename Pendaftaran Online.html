@@ -3,63 +3,148 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SMK Assyafi'iyyah 01 Jakarta</title>
 
     <link rel="shortcut icon" href="./img/D2.jpg" type="image/x-icon">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"> -->
     <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css">
     <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.css">
     <link rel="stylesheet" href="./css/daftaronline.css">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><img src="img/Logo.png" width="80px"></li>
-                <li><a href="Menu Home.html">Smk Asyafi'iyyah 01 Jakarta</a></li>
-                <li><a href="./login.html">Admin</a></li>
-                <li><a href="">Visi Misi</a></li>
-                <li><a href="Profil Guru.html">Profil Guru</a></li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Kegiatan</a>
-                    <div class="dropdown-content">
-                        <a href="Ekstrakulikuler.html">Ekstrakulikuler</a>
-                        <a href="Study Tour.html">Study Tour</a>
-                        <a href="LDKS.html">LDKS</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn">Fasilitas</a>
-                    <div class="dropdown-content">
-                        <a href="Ruang Lab.html">Ruang Lab</a>
-                        <a href="Jurusan.html">Jurusan</a>
-                        <a href="Ujian.html">Ujian Berbasis Komputer</a>
-                    </div>
-                </li>
-                <li><a class="active" href="#Pendaftaran Online">Pendaftaran Online</a></li>
-                <li><a href="Statistik.html">Statistik Calon Siswa Baru</a></li>
-            </ul>
-        </nav>
-    </header>
+    <ul>
+        <li><img src="img/Logo.png" width="80px"></li>
+        <li><a href="Menu Home.html">Smk Asyafi'iyyah 01 Jakarta</a></li>
+        <li><a href="login.html">Admin</a></li>
+        <li><a href="">Visi Misi</a></li>
+        <li><a href="Profil Guru.html">Profil Guru</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Kegiatan</a>
+            <div class="dropdown-content">
+                <a href="Ekstrakulikuler.html">Ekstrakulikuler</a>
+                <a href="Study Tour.html">Study Tour</a>
+                <a href="LDKS.html">LDKS</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Fasilitas</a>
+            <div class="dropdown-content">
+                <a href="Ruang Lab.html">Ruang Lab</a>
+                <a href="Jurusan.html">Jurusan</a>
+                <a href="Ujian.html">Ujian Berbasis Komputer</a>
+            </div>
+        </li>
+        <li><a class="active" href="./Pendaftaran Online.html">Pendaftaran Online</a></li>
+        <li><a href="Statistik.html">Statistik Calon Siswa Baru</a></li>
+    </ul>
 
     <div class="container-sm">
         <div class="kotak-daftar">
             <h1 style="text-align: center;">Form Pendaftaran Siswa Baru</h1><br>
-            <form action="" method="post">
-                <div class="row">
-                    <h3 class="teks-h3">Data Diri</h3>
-                    <div class="col mb-3">
-                        <label for="NamaLengkap" class="form-label fs-6">Nama Lengkap:</label><br>
-                        <input type="text" name="NamaLengkapSiswa" id="NamaLengkap" placeholder="Masukan Nama Lengkap">
+            <form action="" method="get">
+                <div class="container">
+                    <div class="row">
+                        <h3 class="teks-h3">Data Diri</h3>
+                        <div class="col mb-3">
+                            <label for="NamaLengkap" class="form-label fs-6">Nama Lengkap:</label><br>
+                            <input type="text" name="NamaLengkapSiswa" id="InputDataDiri" placeholder="Masukan Nama Lengkap">
+                        </div>
+                        <div class="col mb-3">
+                            <label for="NomorInduk" class="form-label fs-6">Nomor Induk (NIK):</label><br>
+                            <input type="text" name="NomorIndukSiswa" id="InputDataDiri" placeholder="34.XX.XXXX.XXXX">
+                        </div>
                     </div>
-                    <div class="col mb-3">
-                        <label for="NomorIdentitas" class="form-label fs-6">Nomor Identitas (NIK):</label>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
+                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
+                                </div>
+                                <div class="col mb-3">
+                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
+                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
+                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
+                                </div>
+                                <div class="col mb-3">
+                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
+                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
+                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
+                                </div>
+                                <div class="col mb-3">
+                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
+                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
+                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
+                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h3 class="teks-h3">Data Alamat Asal</h3>
+                        <div class="col mb-3">
+                            <label for="Alamat" class="form-label fs-6">Alamat Lengkap:</label>
+                            <textarea name="AlamatSiswa" id="InputDataDiri" cols="30" rows="5" placeholder="Nama Jalan"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h3 class="teks-h3">Data Pendidikan</h3>
+                        <div class="col mb-3">
+                            <label for="PendidikanTerakhir" class="form-label fs-6">Pendidikan Terakhir:</label><br>
+                            <select name="PendidikanTerakhirSiswa" id="InputDataDiri">
+                                <option value="">-- Pendidikan Terakhir --</option>
+                                <option value="SMA/SMK">SMA / SMK</option>
+                                <option value="SMP">SMP</option>
+                                <option value="SD">SD</option>
+                            </select>
+                        </div>
+                        <div class="col mb-3">
+                            <label for="NamaSekolah" class="form-label fs-6">Nama Sekolah:</label><br>
+                            <input type="text" name="NamaSekolahSiswa" id="InputDataDiri" placeholder="Masukan Nama Sekolah">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h3 class="teks-h3">Pilihan Program Studi</h3>
+                        <div class="col mb-3">
+                            <label for="ProgramStudi">Pilih Jurusan:</label><br>
+                            <select name="ProgramStudiSiswa" id="InputDataDiri" required>
+                                <option value="">-- Jurusan --</option>
+                                <option value="AKL">Akutansi (AKL)</option>
+                                <option value="OTKP">Perkantoran (OTKP)</option>
+                                <option value="RPL">Rekayasa Prangkat Lunak (RPL)</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <br>
+                            <input type="submit" value="Kirim">
+                        </div>
+                        <div class="col"></div>
                     </div>
                 </div>
             </form>
