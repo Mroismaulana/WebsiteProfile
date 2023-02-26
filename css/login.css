@@ -1,0 +1,31 @@
+.todi{
+    position: absolute;
+    padding: 50px;
+    width: 800px;
+    height: 400px;
+    left: 184px;
+    margin-left: 100px;
+    top: 72px;
+    
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;}
+
+    .container {
+        padding: 16px;
+      }
+      
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+      
+      /* Change styles for span and cancel button on extra small screens */
+      @media screen and (max-width: 300px) {
+        span.psw {
+           display: block;
+           float: none;
+        }
+        .cancelbtn {
+           width: 100%;
+        }
+      }
