@@ -43,7 +43,10 @@
       <div class="container">
       <div class="todi">
           <h2 style="text-align: center;">Login Admin</h2>
-          <form action="https://www.youtube.com/watch?v=PMhfLy_buV8">
+          <?php if (isset($_GET['error'])) { ?>
+            <P class=""error><?php echo $_GET['error']; ?></P>
+          <?php } ?>
+          <form action="login.php" method="post">
           <label for="uname" class="usrnm"><b>Username</b></label><br>
           <input type="text" placeholder="Enter Username" name="uname" required class="inpusrn"><br>
           <label for="psw" class=pass><b>Password </b></label><br>
