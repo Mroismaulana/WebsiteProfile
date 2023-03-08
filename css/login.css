@@ -55,6 +55,7 @@ color: #FFFFFF;
   font-weight: 800;
   font-size: 12px;
   line-height: 15px;
+  
   /* identical to box height */
   
   
@@ -109,3 +110,9 @@ color: #000000;
   
   background: #D9D9D9;
   border-radius: 10px;}
+  .login11:hover {
+    background-color: #4679a0;
+  }
+  .cancelbtn:hover {
+    background-color: #4679a0;
+  }
