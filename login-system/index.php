@@ -3,7 +3,7 @@
 <head>
 	<title>Login Admin SMK Asyafi'iyah 01</title>
 	<link rel="stylesheet" type="text/css" href="./../css/login.css">
-	<link rel="shortcut icon" href="./img/D2.jpg" type="image/x-icon">
+	<link rel="shortcut icon" href="./../img/D2.jpg" type="image/x-icon">
 </head>
 <body>
      <form action="login.php" method="post">
