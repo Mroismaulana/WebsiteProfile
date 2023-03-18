@@ -50,29 +50,29 @@
                     <div class="row">
                         <h3 class="teks-h3">Data Diri</h3>
                         <div class="col mb-3">
-                            <label for="NamaLengkap" class="form-label fs-6">Nama Lengkap:</label><br>
-                            <input type="text" name="NamaLengkapSiswa" id="InputDataDiri" placeholder="Masukan Nama Lengkap">
+                            <label for="NamaLengkap" class="form-label fs-6">Nama Lengkap:*</label><br>
+                            <input type="text" name="NamaLengkapSiswa" id="InputDataDiri" placeholder="Masukan Nama Lengkap" required>
                         </div>
                         <div class="col mb-3">
-                            <label for="NomorInduk" class="form-label fs-6">Nomor Induk (NIK):</label><br>
-                            <input type="text" name="NomorIndukSiswa" id="InputDataDiri" placeholder="34.XX.XXXX.XXXX">
+                            <label for="NomorInduk" class="form-label fs-6">Nomor Induk (NIK):*</label><br>
+                            <input type="text" name="NomorIndukSiswa" id="InputDataDiri" placeholder="34.XX.XXXX.XXXX" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col mb-3">
                             <div class="row">
                                 <div class="col mb-3">
-                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
+                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:*</label><br>
                                     <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
                                 </div>
                                 <div class="col mb-3">
-                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
-                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
+                                    <label for="TanggalLahir" class="form-label fs-6">Tanggal Lahir:*</label><br>
+                                    <input type="date" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tanggal Lahir">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col mb-3">
-                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
+                                    <label for="TempatLahir" class="form-label fs-6">Kewarganegaraan:*</label><br>
                                     <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
                                 </div>
                                 <div class="col mb-3">
@@ -94,8 +94,13 @@
                         <div class="col mb-3">
                             <div class="row">
                                 <div class="col mb-3">
-                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
-                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir">
+                                    <label for="JenisKelamin" class="form-label fs-6">Jenis Kelamin:*</label><br>
+                                    <select name="JenisKelaminSiswa" id="InputDataDiri" required>
+                                        <option value="">-- Pilih Jenis Kelamin --</option>
+                                        <option value="pria">Laki - Laki</option>
+                                        <option value="wanita">Perempuan</option>
+                                    </select>
+                                    <!-- <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir"> -->
                                 </div>
                             </div>
                             <div class="row">
