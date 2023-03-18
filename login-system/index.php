@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>LOGIN</title>
-	<link href="/img/D3.jpg" rel="shortcut icon" />
+	<title>Login Admin SMK Asyafi'iyah 01</title>
 	<link rel="stylesheet" type="text/css" href="login.css">
+	<link rel="shortcut icon" href="./img/D2.jpg" type="image/x-icon">
 </head>
 <body>
      <form action="login.php" method="post">
