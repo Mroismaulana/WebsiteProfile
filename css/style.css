@@ -24,7 +24,8 @@ li a {
 }
 
 /*dropdown*/
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover,
+.dropdown:hover .dropbtn {
   background-color: #04AA6D;
 }
 
@@ -37,23 +38,25 @@ li.dropdown {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
-.mar{
+.mar {
   background-color: #f1f1f1;
 }
 
 .dropdown-content a {
-  color:  black;
+  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -63,7 +66,7 @@ li.dropdown {
 body {
   background-image: url('./../img/D3.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;  
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -71,27 +74,27 @@ body {
 /*artikel*/
 
 /*background*/
-.rois {position: fixed;
+.rois {
+  position: fixed;
   width: 1000px;
   height: 480px;
   padding: 0px;
   left: 175px;
- padding-top: 35px;
-  
+  padding-top: 35px;
+
   background: rgba(255, 255, 255, 0.8);
   border-radius: 25px;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
-footer{
-text-align: center;
-padding: 3px;
-background-color: rgba(255, 255, 255, 0.8);
-color: black;
-margin-top: 520px;
-width: 1000px;
-margin-left: 175px;
-border-radius: 25px;
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  margin-top: 520px;
+  width: 1000px;
+  margin-left: 175px;
+  border-radius: 25px;
 }
-

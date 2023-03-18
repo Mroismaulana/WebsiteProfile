@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <ul>
+    <ul class="container-fluid mb-auto">
         <li><img src="img/Logo.png" width="80px"></li>
         <li><a href="Menu Home.html">Smk Asyafi'iyyah 01 Jakarta</a></li>
         <li><a href="./login-system/">Admin</a></li>
@@ -42,13 +42,13 @@
         <li><a href="Statistik.html">Statistik Calon Siswa Baru</a></li>
     </ul>
 
-    <div class="container-sm">
-        <div class="kotak-daftar">
+    <div class="container-fluid mb-auto">
+        <div class="kotak-daftar mb-auto">
             <h1 style="text-align: center;">Form Pendaftaran Siswa Baru</h1><br>
             <form action="" method="get">
                 <div class="container">
                     <div class="row">
-                        <h3 class="teks-h3">Data Diri</h3>
+                        <h3 class="teks-h3 mb-4">Data Diri</h3>
                         <div class="col mb-3">
                             <label for="NamaLengkap" class="form-label fs-6">Nama Lengkap:*</label><br>
                             <input type="text" name="NamaLengkapSiswa" id="InputDataDiri"
@@ -66,17 +66,16 @@
                                 <div class="col mb-3">
                                     <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:*</label><br>
                                     <input type="text" name="TempatLahirSiswa" id="InputDataDiri"
-                                        placeholder="Masukan Tempat Lahir">
+                                        placeholder="Masukan Tempat Lahir" required>
                                 </div>
                                 <div class="col mb-3">
                                     <label for="TanggalLahir" class="form-label fs-6">Tanggal Lahir:*</label><br>
-                                    <input type="date" name="TempatLahirSiswa" id="InputDataDiri"
-                                        placeholder="Masukan Tanggal Lahir">
+                                    <input type="date" name="TempatLahirSiswa" id="InputDataDiri" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col mb-3">
-                                    <label for="TempatLahir" class="form-label fs-6">Kewarganegaraan:*</label><br>
+                                    <label for="Kewarganegaraan" class="form-label fs-6">Kewarganegaraan:*</label><br>
                                     <select name="KewarganegaraanSiswa" id="InputDataDiri" required>
                                         <option value="Indonesia">Indonesia</option>
                                         <option value="Malaysia">Malaysia</option>
@@ -87,21 +86,26 @@
                                     <!-- <input type="text" name="TempatLahirSiswa" id="InputDataDiri" placeholder="Masukan Tempat Lahir"> -->
                                 </div>
                                 <div class="col mb-3">
-                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
-                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri"
-                                        placeholder="Masukan Tempat Lahir">
+                                    <label for="Agama" class="form-label fs-6">Agama:*</label><br>
+                                    <select name="AgamaSiswa" id="InputDataDiri" required>
+                                        <option value="Islam">Islam</option>
+                                        <option value="Kristen">Kristen</option>
+                                        <option value="Buddha">Buddha</option>
+                                        <option value="Hindu">Hindu</option>
+                                        <option value="Konghucu">Konghucu</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col mb-3">
-                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
-                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri"
-                                        placeholder="Masukan Tempat Lahir">
+                                    <label for="Email" class="form-label fs-6">Email:</label><br>
+                                    <input type="email" name="EmailSiswa" id="InputDataDiri"
+                                        placeholder="nama@contoh.com">
                                 </div>
                                 <div class="col mb-3">
-                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
-                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri"
-                                        placeholder="Masukan Tempat Lahir">
+                                    <label for="NomorTelepon" class="form-label fs-6">Nomor Telepon (Wali/Murid):*</label><br>
+                                    <input type="text" name="EmailSiswa" id="InputDataDiri"
+                                        placeholder="08XXXXXXXXXXXX">
                                 </div>
                             </div>
                         </div>
@@ -119,15 +123,15 @@
                             </div>
                             <div class="row">
                                 <div class="col mb-3">
-                                    <label for="TempatLahir" class="form-label fs-6">Tempat Lahir:</label><br>
-                                    <input type="text" name="TempatLahirSiswa" id="InputDataDiri"
-                                        placeholder="Masukan Tempat Lahir">
+                                    <label for="NamaOrangTuaWali" class="form-label fs-6">NamaOrangTua / Wali:*</label><br>
+                                    <input type="text" name="NamaOrangTuaWaliSiswa" id="InputDataDiri"
+                                        placeholder="Nama Lengkap Orang Tua / Wali">
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="row">
-                        <h3 class="teks-h3">Data Alamat Asal</h3>
+                        <h3 class="teks-h3 mb-3">Data Alamat Asal</h3>
                         <div class="col mb-3">
                             <label for="Alamat" class="form-label fs-6">Alamat Lengkap:</label>
                             <textarea name="AlamatSiswa" id="InputDataDiri" cols="30" rows="5"
@@ -135,7 +139,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <h3 class="teks-h3">Data Pendidikan</h3>
+                        <h3 class="teks-h3 mb-3">Data Pendidikan</h3>
                         <div class="col mb-3">
                             <label for="PendidikanTerakhir" class="form-label fs-6">Pendidikan Terakhir:</label><br>
                             <select name="PendidikanTerakhirSiswa" id="InputDataDiri">
@@ -152,7 +156,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <h3 class="teks-h3">Pilihan Program Studi</h3>
+                        <h3 class="teks-h3 mb-3">Pilihan Program Studi</h3>
                         <div class="col mb-3">
                             <label for="ProgramStudi">Pilih Jurusan:</label><br>
                             <select name="ProgramStudiSiswa" id="InputDataDiri" required>
