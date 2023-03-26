@@ -21,7 +21,7 @@
   }
   .browser-info {
     position: absolute;
-    top: 18.4%;
+    top: 18.5%;
     width: 77.5%;
     height: 293px;
     margin: 10px;
@@ -40,6 +40,12 @@
     font-size: 90%;
     background: #fafafa;
     float: left;
+  }
+  h1 {
+    background-color: #3F5A6F;
+    color: #FFFFFF;
+    stroke: white;
+    width: 100%;
   }
   
   
