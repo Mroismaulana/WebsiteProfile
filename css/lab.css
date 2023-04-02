@@ -1,16 +1,16 @@
 .teks-h1 {
-    color: black; 
-    background-color: #04AA6D;
+    color: white; 
+    background-color: #3F5A6F;
     text-align: center;
 }
-
 .img1{
-position: absolute;
-width: 300px;
-height: 296px;
-left: 950px;
-top: 154px;
-}
+    position: absolute;
+    width: 300px;
+    height: 296px;
+    left: 100px;
+    top: 154px;
+    }
+
 
 .img2{
     position: absolute;
@@ -19,11 +19,29 @@ top: 154px;
     left: 525px;
     top: 154px;
     }
-
     .img3{
         position: absolute;
         width: 300px;
         height: 296px;
-        left: 100px;
+        left: 950px;
         top: 154px;
         }
+
+.otkp {
+    position: absolute;
+    top: 435px;
+    left: 160px;
+    color: aliceblue;
+}
+.akl {
+    position: absolute;
+    top: 435px;
+    color: aliceblue;
+    left: 600px;
+}
+.rpl {
+    position: absolute;
+    top: 435px;
+    color: aliceblue;
+    left: 1040px;
+}
