@@ -116,15 +116,17 @@ body {
   display: grid;
   margin-top: 2%;
   align-items: center;
-  bottom: 0px;
   height: min-content;
   background-color: #d9d9d9aa;
   justify-items: center;
   border-radius: 15px;
-  
+  width: calc(100% - 7em);
+  justify-content: center;
+  align-content: center;
+  margin-left: 5.05%;
+
   /* position: absolute;
   bottom: 0;
-  width: 100%;
   height: min-content;
   background-color: #d9d9d9aa;
   border-radius: 15px; */

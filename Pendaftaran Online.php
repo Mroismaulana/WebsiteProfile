@@ -4,11 +4,12 @@
 <?php
 include("./core/url.php");
 include("./core/header.php");
-menuActiveClass('daftaronline')
-
 ?>
 
 <body>
+    <?php menuActiveClass('daftaronline');?>
+
+
     <div class="kotak-daftar mb-auto">
         <h1 style="text-align: center;">Form Pendaftaran Siswa Baru</h1><br>
         <form action="" method="get">
