@@ -6,6 +6,8 @@ include("./core/url.php");
 include("./core/header.php");
 ?>
 
+<link rel="stylesheet" href="./css/daftaronline.css">
+
 <body>
     <?php menuActiveClass('daftaronline');?>
 
