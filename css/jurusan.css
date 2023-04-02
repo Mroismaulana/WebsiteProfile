@@ -13,7 +13,7 @@ top: 154px;
 }
 
 .img2{
-    position: absolute;
+    position: relative;
     width: 300px;
     height: 296px;
     left: 525px;

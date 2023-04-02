@@ -1,7 +1,8 @@
-<?php
-include('./core/url.php');
-include('./core/header.php');
-menuActiveClass("Profil");
+<?php 
+include("./core/url.php");
+include("./core/header.php");
+
+menuActiveClass('profil')
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,32 +17,6 @@ menuActiveClass("Profil");
 </head>
 
 <body>
-  <header>
-    <ul>
-      <li><img src="img/Logo.png" width="80px"></li>
-      <li><a href="Menu Home.html">Smk Asyafi'iyyah 01 Jakarta</a></li>
-      <li><a href="/login-system/">Admin</a></li>
-      <li><a href="Menu Visi Misi.html">Visi Misi</a></li>
-      <li><a class="active" href="#Profil Guru">Profil Guru</a></li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Kegiatan</a>
-        <div class="dropdown-content">
-          <a href="Ekstrakulikuler.html">Ekstrakulikuler</a>
-          <a href="Study Tour.html">Study Tour</a>
-          <a href="LDKS.html">LDKS</a>
-        </div>
-      </li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Fasilitas</a>
-        <div class="dropdown-content">
-          <a href="Ruang Lab.html">Ruang Lab</a>
-          <a href="Jurusan.html">Jurusan</a>
-          <a href="Ujian.html">Ujian Berbasis Komputer</a>
-        </div>
-      </li>
-      <li><a href="./Pendaftaran Online.html">Pendaftaran Online</a></li>
-      <li><a href="Statistik.html">Statistik Calon Siswa Baru</a></li>
-    </ul>
 
   </header>
 
@@ -118,16 +93,8 @@ menuActiveClass("Profil");
   </article>
 
 </body>
-<?php
-<<<<<<< HEAD
-include('./core/footer.php');
-?>
-=======
+<?php 
 include("./core/footer.php");
 ?>
-
->>>>>>> 55fca67d92607045f2d67b1082a8130136ae7ab7
 </html>
-<!-- <e>
-  
-</e> -->
+    
