@@ -1,3 +1,11 @@
+
+<?php
+include("./core/url.php");
+include("./core/header.php");
+
+menuActiveClass("stat");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +15,7 @@
 
 </head>
 <body>
-  <header>
+  <!-- <header>
     <div class="container">
         <ul>
     <li><img src="img/Logo.png" width="80px" ></li>
@@ -37,7 +45,12 @@
               <li><a class="active" href="">Statistik Calon Siswa Baru</a></li>
             </ul>
           </div>
-  </header>
+  </header> -->
             
 </body>
 </html>
+<?php
+include('./core/footer.php');
+
+
+?>
