@@ -74,8 +74,8 @@ menuActiveClass("Profil");
           <p>asdasdasdasddasd</p>
         </article>
       </div>
-    </div>
-    <!-- <article class="browser">
+      </div>
+      <!-- <article class="browser">
           <img src="img/P1.jpg" width="233px">
           <h2>Kepala Jurusan Otkp</h2>
           <p>Rahmansyah S.pd</p>
@@ -119,8 +119,14 @@ menuActiveClass("Profil");
 
 </body>
 <?php
+<<<<<<< HEAD
 include('./core/footer.php');
 ?>
+=======
+include("./core/footer.php");
+?>
+
+>>>>>>> 55fca67d92607045f2d67b1082a8130136ae7ab7
 </html>
 <!-- <e>
   
