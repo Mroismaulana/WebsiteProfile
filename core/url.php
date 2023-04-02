@@ -1,9 +1,9 @@
 <?php 
 function url(){
-    echo "http://localhost:8080/WEBSITEPROFILE/";
+    echo "http://localhost/main/Website%20Profile%20(Kelompok%20Rois)/WebsiteProfile/";
 }
 function dxurl(){
-    $d = "http://localhost:8080/WEBSITEPROFILE/";
+    $d = "http://localhost/main/Website%20Profile%20(Kelompok%20Rois)/WebsiteProfile/";
     return $d;
 }
 ?>
