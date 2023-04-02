@@ -1,3 +1,8 @@
+<?php 
+include('./core/url.php');
+include('./core/header.php');
+menuActiveClass("Tour");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,4 +45,7 @@
   </header>
             
 </body>
+<?php
+include('./core/db_con.php');
+?>
 </html>

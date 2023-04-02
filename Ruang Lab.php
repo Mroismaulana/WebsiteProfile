@@ -1,3 +1,8 @@
+<?php
+include('./core/url.php');
+include('./core/url.php');
+menuActiveClass("Lab");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -49,4 +54,7 @@
     
             
 </body>
+<?php
+include('./core/footer.php');
+?>
 </html>

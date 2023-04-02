@@ -1,3 +1,8 @@
+<?php
+include('./core/url.php');
+include('./core/header.php');
+menuActiveClass("Ujian");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -44,4 +49,7 @@
   <img class="img2" src="img/P1.jpg">
   <img class="img3" src="img/P1.jpg">
 </body>
+<?php
+include('./core/footer.php');
+?>
 </html>

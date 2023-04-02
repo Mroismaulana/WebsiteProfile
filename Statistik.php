@@ -48,9 +48,9 @@ menuActiveClass("stat");
   </header> -->
             
 </body>
-</html>
 <?php
 include('./core/footer.php');
 
 
 ?>
+</html>

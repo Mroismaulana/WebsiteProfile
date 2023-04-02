@@ -1,3 +1,8 @@
+<?php
+include('./core/url.php');
+include('./core/header.php');
+menuActiveClass("Profil");
+?>
 <!DOCTYPE html>
 <html>
 
@@ -113,7 +118,9 @@
   </article>
 
 </body>
-
+<?php
+include('./core/footer.php');
+?>
 </html>
 <!-- <e>
   
