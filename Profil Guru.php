@@ -69,8 +69,8 @@
           <p>asdasdasdasddasd</p>
         </article>
       </div>
-    </div>
-    <!-- <article class="browser">
+      </div>
+      <!-- <article class="browser">
           <img src="img/P1.jpg" width="233px">
           <h2>Kepala Jurusan Otkp</h2>
           <p>Rahmansyah S.pd</p>
@@ -113,6 +113,9 @@
   </article>
 
 </body>
+<?php
+include("./core/footer.php");
+?>
 
 </html>
 <!-- <e>
