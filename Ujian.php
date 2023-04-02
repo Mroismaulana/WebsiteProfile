@@ -39,7 +39,7 @@
           </div>
   </header>
             
-  <h1 class="teks-h1">Jurusan</h1>
+  <h1 class="teks-h1">Ujian</h1>
   <img class="img1" src="img/P1.jpg">
   <img class="img2" src="img/P1.jpg">
   <img class="img3" src="img/P1.jpg">
