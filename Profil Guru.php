@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 <?php 
 include("./core/url.php");
 include("./core/header.php");
 
 menuActiveClass('profil')
+=======
+<?php
+include('./core/url.php');
+include('./core/header.php');
+menuActiveClass("profil");
+>>>>>>> d88c98cd1e31cd28a0ff608dc8cb0b8ba86bf4f8
 ?>
 <!DOCTYPE html>
 <html>
@@ -17,8 +24,11 @@ menuActiveClass('profil')
 </head>
 
 <body>
+<<<<<<< HEAD
 
   </header>
+=======
+>>>>>>> d88c98cd1e31cd28a0ff608dc8cb0b8ba86bf4f8
 
   <article class="all-browsers" class="article">
     <div class="container text-center">
@@ -93,8 +103,15 @@ menuActiveClass('profil')
   </article>
 
 </body>
+<<<<<<< HEAD
 <?php 
 include("./core/footer.php");
 ?>
 </html>
     
+=======
+<?php
+include('./core/footer.php');
+?>
+</html>
+>>>>>>> d88c98cd1e31cd28a0ff608dc8cb0b8ba86bf4f8
