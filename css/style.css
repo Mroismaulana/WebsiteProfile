@@ -112,7 +112,7 @@ body {
 }
 
 .kaki {
-  position: relative;
+  position: absolute;
   display: grid;
   margin-top: 2%;
   align-items: center;
