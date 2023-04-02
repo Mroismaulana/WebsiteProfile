@@ -6,15 +6,15 @@
 
     <!-- CSS -->
     <!-- <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"> -->
-    <link rel="stylesheet" href="<?php url(); ?>css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="<?php url(); ?>css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.css">
-    <link rel="stylesheet" href="<?php url(); ?>css/daftaronline.css">
-    <link rel="stylesheet" href="<?php url(); ?>css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./css/daftaronline.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <style>
         /*background*/
         body {
-            background-image: url("<?php url();?>img/D3.jpg");
+            background-image: url("./img/D3.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
