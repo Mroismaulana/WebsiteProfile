@@ -45,7 +45,23 @@ menuActiveClass("stat");
               <li><a class="active" href="">Statistik Calon Siswa Baru</a></li>
             </ul>
           </div>
+<<<<<<< HEAD:Statistik.php
   </header> -->
+=======
+  </header>
+
+    <h1 class="teks-h1">Ruang Lab</h1>
+  <div><img class="img3" src="img/P1.jpg"><h1 class="otkp">Lab OTKP</h1></div>
+  
+  <div><img class="img2" src="img/P1.jpg">
+  <h1 class="akl">Lab AKL</h1></div>
+  <div>
+  <img class="img1" src="img/P1.jpg">
+  <h1 class="rpl">Lab RPL</h1>
+</div>
+ 
+    
+>>>>>>> master:Ruang Lab.html
             
 </body>
 <?php
