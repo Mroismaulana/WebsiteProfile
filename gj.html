@@ -1,47 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<style>
-.all-browsers {
-  margin: 0;
-  padding: 5px;
-  background-color: lightgray;
-}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.css">
+  <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.rtl.css">
+  <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
 
-.all-browsers > h1, .browser {
-  margin: 10px;
-  padding: 5px;
-}
-
-.browser {
-  background: white;
-}
-
-.browser > h2, p {
-  margin: 4px;
-  font-size: 90%;
-}
-</style>
+  <title>TEST 101</title>
 </head>
+
 <body>
+  <div class="dropdown bg-info">
+    <a href="#" class="d-flex align-items-center link-info text-decoration-none dropdown-toggle-split"
+      data-bs-toggle="dropdown" aria-expanded="false">DAdasdas</a>
+    <ul class="dropdown-menu shadow">
+      <li><a href="#" class="dropdown-item">KAntong</a>
+      </li>
+      <li>
+        <a href="#" class="dropdown-item">KAdan</a>
+        <div class="dropdown bg-black">
+          <a href="#" class="d-flex align-items-center link-info text-decoration-none dropdown-toggle-split"
+            data-bs-toggle="dropdown" aria-expanded="false">DAdasdas</a>
+            <ul class="dropdown-menu shadow">
+              <li><a href="#" class="dropdown-item">DAS</a></li>
+              <li><a href="#" class="dropdown-item">FAS</a></li>
+            </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
 
-<h1>The article element - Styled with CSS</h1>
-
-<article class="all-browsers">
-  <h1>Most Popular Browsers</h1>
-  <article class="browser">
-    <h2>Google Chrome</h2>
-    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-  </article>
-  <article class="browser">
-    <h2>Mozilla Firefox</h2>
-    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
-  </article>
-  <article class="browser">
-    <h2>Microsoft Edge</h2>
-    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
-  </article>
-</article>
-
+  <script src="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>

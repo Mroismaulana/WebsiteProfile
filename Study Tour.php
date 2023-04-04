@@ -16,8 +16,4 @@ menuActiveClass("tour");
 <body>
 
 </body>
-<?php
-include('./core/db_con.php');
-?>
-
 </html>

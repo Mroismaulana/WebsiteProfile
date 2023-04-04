@@ -9,7 +9,7 @@ menuActiveClass("jurus");
 
 <head>
   <title>SMK Assyafi'iyyah 01 Jakarta</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
   <link rel="shortcut icon" href="img/D2.jpg" type="image/x-icon">
   <link rel="stylesheet" href="./css/jurusan.css">
 </head>
@@ -17,9 +17,23 @@ menuActiveClass("jurus");
 <body>
 
   <h1 class="teks-h1">Jurusan</h1>
-  <img class="img1" src="img/P1.jpg">
-  <img class="img2" src="img/P1.jpg">
-  <img class="img3" src="img/P1.jpg">
+  <div class="container-fluid kotak-invisible">
+    <div class="row">
+      <img class="img1" src="img/P1.jpg">
+      <h1 class="teks-h1">AKL</h1>
+      <div class="container"></div>
+    </div>
+    <div class="row">
+      <h1 class="teks-h1">OTKP</h1>
+      <img class="img1" src="img/P1.jpg">
+      <div class="container"></div>
+    </div>
+    <div class="row">
+      <h1 class="teks-h1">RPL</h1>
+      <img class="img1" src="img/P1.jpg">
+      <div class="container"></div>
+    </div>
+  </div>
 
 
 </body>
