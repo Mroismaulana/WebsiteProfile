@@ -1,40 +1,66 @@
+<?php
+include("./core/url.php");
+include("./core/header.php");
+menuActiveClass("jurus");
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+  <title>SMK Assyafi'iyyah 01 Jakarta</title>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css">
-  <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.css">
-  <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.rtl.css">
-  <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <title>SMK Assyafi'iyyah 01 Jakarta</title>
 
-  <title>TEST 101</title>
+    <link rel="shortcut icon" href="./img/D2.jpg" type="image/x-icon">
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        /*background*/
+        body {
+            background-image: url("./img/D3.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <link rel="shortcut icon" href="img/D2.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/jurusan.css">
 </head>
 
 <body>
-  <div class="dropdown bg-info">
-    <a href="#" class="d-flex align-items-center link-info text-decoration-none dropdown-toggle-split"
-      data-bs-toggle="dropdown" aria-expanded="false">DAdasdas</a>
-    <ul class="dropdown-menu shadow">
-      <li><a href="#" class="dropdown-item">KAntong</a>
-      </li>
-      <li>
-        <a href="#" class="dropdown-item">KAdan</a>
-        <div class="dropdown bg-black">
-          <a href="#" class="d-flex align-items-center link-info text-decoration-none dropdown-toggle-split"
-            data-bs-toggle="dropdown" aria-expanded="false">DAdasdas</a>
-            <ul class="dropdown-menu shadow">
-              <li><a href="#" class="dropdown-item">DAS</a></li>
-              <li><a href="#" class="dropdown-item">FAS</a></li>
-            </ul>
-        </div>
-      </li>
-    </ul>
+
+  <h1 class="teks-h1">Jurusan</h1>
+  <div class="container-fluid kotak-invisible">
+    <div class="row">
+      <h1 class="teks-h1">AKL</h1>
+      <img class="img1" src="img/P1.jpg">
+      <div class="container-lg">
+        <div class="kotak"></div>
+      </div>
+    </div>
+    <div class="row">
+      <h1 class="teks-h1">OTKP</h1>
+      <img class="img1" src="img/P1.jpg">
+      <div class="container"></div>
+    </div>
+    <div class="row">
+      <h1 class="teks-h1">RPL</h1>
+      <img class="img1" src="img/P1.jpg">
+      <div class="container"></div>
+    </div>
   </div>
 
-  <script src="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.js"></script>
+
 </body>
+<?php
+include("./core/footer.php");
+?>
 
 </html>

@@ -9,7 +9,26 @@ menuActiveClass("jurus");
 
 <head>
   <title>SMK Assyafi'iyyah 01 Jakarta</title>
-  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <meta charset="UTF-8">
+    <title>SMK Assyafi'iyyah 01 Jakarta</title>
+
+    <link rel="shortcut icon" href="./img/D2.jpg" type="image/x-icon">
+
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        /*background*/
+        body {
+            background-image: url("./img/D3.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
   <link rel="shortcut icon" href="img/D2.jpg" type="image/x-icon">
   <link rel="stylesheet" href="./css/jurusan.css">
 </head>
@@ -19,8 +38,8 @@ menuActiveClass("jurus");
   <h1 class="teks-h1">Jurusan</h1>
   <div class="container-fluid kotak-invisible">
     <div class="row">
-      <img class="img1" src="img/P1.jpg">
       <h1 class="teks-h1">AKL</h1>
+      <img class="img1" src="img/P1.jpg">
       <div class="container"></div>
     </div>
     <div class="row">

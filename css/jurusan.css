@@ -2,22 +2,12 @@
     color: black;
     background-color: #04AA6D;
     text-align: center;
+    margin: 40px;
 }
 
 .img1 {
     position: relative;
     width: 300px;
     height: 296px;
-}
-
-.img2 {
-    position: relative;
-    width: 300px;
-    height: 296px;
-}
-
-.img3 {
-    position: relative;
-    width: 300px;
-    height: 296px;
+    left: 2em
 }
