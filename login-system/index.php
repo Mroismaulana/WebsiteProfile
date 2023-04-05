@@ -18,7 +18,7 @@
      	<input type="password" name="password" placeholder="Password"><br>
 
      	<button class="login"type="submit">Login</button>
-		<button class="back" type="submit">Back</button>
+		<button a href='Menu Home.php' class="back" type="submit">Back</button>
      </form>
 </body>
 </html>
