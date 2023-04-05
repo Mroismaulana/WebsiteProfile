@@ -15,15 +15,26 @@ include("./core/header.php");
 
 <body>
 <?php menuActiveClass("visimisi");?>
-    <div class="container kotak-invisible">
-        <div class="row">
-            <div class="col foto">
-                <img src="./img/P1.jpg" alt="Kepala Sekolah">
+    <div class="container-md kotak-invisible">
+        <div class="row isinya">
+            <div class="col">
+                <img class="foto" src="./img/P1.jpg" alt="Kepala Sekolah">
             </div>
             <div class="col">
-                <div class="isinya">`
-                    Column
-                </div>
+                <p class="kotak mb-auto">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
+                </p>
             </div>
         </div>
     </div>
