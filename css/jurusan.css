@@ -2,12 +2,18 @@
     color: black;
     background-color: #04AA6D;
     text-align: center;
-    margin: 40px;
+    margin-top: 8vh;
+    text-align: center;
 }
 
 .img1 {
     position: relative;
     width: 300px;
     height: 296px;
-    left: 2em
+    left: 1.5em;
+}
+
+.kotak {
+    max-width: fit-content;
+    margin-top: -9vh;
 }
