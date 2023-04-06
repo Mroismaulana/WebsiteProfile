@@ -5,9 +5,9 @@
     <link rel="shortcut icon" href="./img/D2.jpg" type="image/x-icon">
 
     <!-- CSS -->
-    <!-- <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"> -->
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-utilities.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap/bootstrap.css"> -->
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap-utilities.css">
     <link rel="stylesheet" href="./css/style.css">
 
     <style>
