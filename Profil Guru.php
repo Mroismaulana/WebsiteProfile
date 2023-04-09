@@ -47,46 +47,6 @@ menuActiveClass("profil");
         </article>
       </div>
       </div>
-      <!-- <article class="browser">
-          <img src="img/P1.jpg" width="233px">
-          <h2>Kepala Jurusan Otkp</h2>
-          <p>Rahmansyah S.pd</p>
-        </article>
-        <article class="browser">
-          <img src="img/P1.jpg" width="233px">
-            <h2>Kepala Jurusan Akl</h2>
-            <p>Yuliarto S.pd</p>
-          </article>
-          <article class="browser">
-            <img src="img/P1.jpg" width="233px">
-            <h2>Kepala Jurusan Rpl</h2>
-            <p>Retno S.pd</p>
-            </article>
-            <article class="browser">
-              <img src="img/P1.jpg" width="233px">
-            <h2>Bimbingan Konseling</h2>
-            <p>Rusmini S.pd</p>
-          </article>
-          <article class="browser">
-            <img src="img/P1.jpg" width="233px">
-            <h2>Mapel Matematika Kelas X & XI</h2>
-            <p>Devy Yunearto S.pd</p>
-          </article>
-          <article class="browser">
-            <img src="img/P1.jpg" width="233px">
-            <h2>Mapel Pendidikan Agama Islam X,XI,& XII</h2>
-            <p>Shidiq S.pd</p>
-          </article>
-          <article class="browser">
-            <img src="img/P1.jpg" width="233px">
-            <h2>Mapel Al-Quran & Tajwid X,XI,& XII</h2>
-            <p>Achmad Halwani S.pd</p>
-          </article>
-            <article class="browser">
-              <img src="img/P1.jpg" width="233px">
-                <h2>Mapel PKN X,XI,& XII</h2>
-                <p>Ramli S.pd</p>
-          </article> -->
   </article>
 
 </body>
