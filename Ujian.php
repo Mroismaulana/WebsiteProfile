@@ -14,16 +14,16 @@ menuActiveClass("ujian");
 
 <body>
   <h1 class="teks-h1">Ujian</h1>
-  <div class="kotak-invisible">
+  <div class="container-lg kotak-invisible">
     <div class="row">
-      <div class="col">
-        <img class="img1" src="img/P1.jpg">
+      <div class="col mb-6">
+        <img class="img" src="img/P1.jpg">
       </div>
-      <div class="col">
-        <img class="img2" src="img/P1.jpg">
+      <div class="col  mb-6">
+        <img class="img" src="img/P1.jpg">
       </div>
-      <div class="col">
-        <img class="img3" src="img/P1.jpg">
+      <div class="col  mb-6">
+        <img class="img" src="img/P1.jpg">
       </div>
     </div>
   </div>

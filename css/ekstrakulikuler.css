@@ -1,35 +1,35 @@
 .teks-h1 {
-    color: black; 
+    color: black;
     background-color: #04AA6D;
     text-align: center;
 }
 
 .teks-p {
-    color: black; 
+    color: black;
     background-color: #04AA6D;
-    position: absolute;
-    width: 650px;
-    height: 76px;
-    left: 13px;
-    top: 500px;
-    font-size: larger;
+    position: relative;
+    /* width: 650px; */
+    /* height: 76px; */
+    text-align: center;
+    font-size: x-large;
 }
 
 
-.img1{
-position: absolute;
-width: 300px;
-height: 296px;
-left: 100px;
-top: 154px;
+.img {
+    position: relative;
+    width: 300px;
+    height: 296px;
+    display: grid;
+    justify-items: center;
+    align-items: start;
+    align-content: stretch;
+    margin-inline-start: 25%;
 }
 
-.tes{
+.tes {
     background-color: #dddd;
-    position: absolute;
-width: 300px;
-height: 440px;
-left: 900px;
-top: 140px;
-
+    position: relative;
+    height: 440px;
+    margin: 0px;
+    padding: 1em;
 }

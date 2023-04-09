@@ -16,10 +16,24 @@ menuActiveClass("ekskul");
 
 <body>
 
-  <h1 class="teks-h1">Ekstrakulikuler</h1>
-  <p class="teks-p">SILAT</p>
-  <p class="tes">tes</p>
-  <img class="img1" src="img/P1.jpg">
+  <div class="container-lg">
+    <div class="offcanvas-header">
+      <h1 class="teks-h1">Ekstrakulikuler</h1>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row img">
+          <img class="" src="img/P1.jpg">
+        </div>
+        <div class="row">
+          <p class="teks-p">SILAT</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="tes">tes</p>
+      </div>
+    </div>
+  </div>
 
 </body>
 

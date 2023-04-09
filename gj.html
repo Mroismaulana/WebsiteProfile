@@ -1,14 +1,82 @@
+<?php
+include("./core/url.php");
+include("./core/header.php");
+menuActiveClass("ekskul");
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
+    <title>SMK Assyafi'iyyah 01 Jakarta</title>
+    <!-- CSS -->
+    <!-- <link rel="stylesheet" href="./css/bootstrap/bootstrap.css"> -->
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap-grid.css">
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="shortcut icon" href="img/D2.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/ekstrakulikuler.css">
+
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./img/D2.jpg" type="image/x-icon">
+
+
 </head>
+
 <body>
-    <p class="mb-auto"></p>
+
+    <header>
+        <ul class='mb-auto container-lg'>
+            <li><img src='{$_url}img/Logo.png' width='80px'></li>
+            <li><a class='' href='{$_url}Menu Home.php'>Smk Asyafi'iyyah 01 Jakarta</a></li>
+            <li><a class='' href='./login-system/'>Admin</a></li>
+            <li><a class='' href='Menu Visi Misi.php'>Visi Misi</a></li>
+            <li><a class='' href='Profil Guru.php'>Profil Guru</a></li>
+            <li class='dropdown'>
+                <a class='active' href='javascript:void(0)' class='dropbtn'>Kegiatan</a>
+                <div class='dropdown-content'>
+                    <a href='Ekstrakulikuler.php'>Ekstrakulikuler</a>
+                    <a href='Study Tour.php'>Study Tour</a>
+                    <a href='LDKS.php'>LDKS</a>
+                </div>
+            </li>
+            <li class='dropdown'>
+                <a class='' href='javascript:void(0)' class='dropbtn'>Fasilitas</a>
+                <div class='dropdown-content'>
+                    <a href='Ruang Lab.php'>Ruang Lab</a>
+                    <a href='Jurusan.php'>Jurusan</a>
+                    <a href='Ujian.php'>Ujian Berbasis Komputer</a>
+                </div>
+            </li>
+            <li><a class='' href='{$_url}Pendaftaran Online.php'>Pendaftaran Online</a></li>
+            <li><a class='' href='Statistik.php'>Statistik Calon Siswa Baru</a></li>
+        </ul>
+    </header>
+
+    <div class="container-lg">
+        <div class="offcanvas-header">
+            <h1 class="teks-h1">Ekstrakulikuler</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="row img">
+                    <img class="" src="img/P1.jpg">
+                </div>
+                <div class="row">
+                    <p class="teks-p">SILAT</p>
+                </div>
+            </div>
+            <div class="col">
+                <p class="tes">tes</p>
+            </div>
+        </div>
+    </div>
+
 </body>
+
+<?php
+include("./core/footer.php");
+?>
+
 </html>
