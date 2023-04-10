@@ -9,16 +9,6 @@
     <link rel="stylesheet" href="./css/bootstrap/bootstrap-grid.css">
     <link rel="stylesheet" href="./css/bootstrap/bootstrap-utilities.css">
     <link rel="stylesheet" href="./css/style.css">
-
-    <style>
-        /*background*/
-        body {
-            background-image: url("./img/D3.jpg");
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-    </style>
 </head>
 
 <?php
