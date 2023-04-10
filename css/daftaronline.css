@@ -1,16 +1,15 @@
 .kotak-daftar {
-  position: absolute;
-  width: calc(100% - 110px);
-  height: max-content;
-  /* text-align: center; */
-  top: 100px;
-  margin: 0px;
-  left: 55px;
-  /* padding: 25px; */
-  padding: auto;
-
-  background-color: #d9d9d9;
-  border-radius: 45px;
+  position: relative;
+    width: calc(100% - 7em);
+    height: max-content;
+    /* text-align: center; */
+    top: 0px;
+    margin: 0px;
+    left: 55px;
+    /* padding: 25px; */
+    padding: auto;
+    background-color: #d9d9d9aa;
+    border-radius: 15px;
 }
 
 .teks-h3 {

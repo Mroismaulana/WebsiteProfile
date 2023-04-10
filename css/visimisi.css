@@ -1,21 +1,23 @@
 .foto {
-    position: absolute;
+    position: relative;
+    margin: 0;
     margin-top: 10px;
     width: 225px;
     height: 225px;
-    left: 36px;
-    top: 59px;
-    background-color: aqua;
+    /* left: 2em; */
+    /* top: 59px; */
+    background-color: #ffffff00;
     border-radius: 25px;
 }
 
 .foto img {
+    margin:0;
     border-radius: 25px;
 }
 
 .isinya {
-    position: absolute;
-    width: 76%;
+    /* position: relative;
+    width: calc(100% - 23.5em);
     height: 86%;
     left: 213px;
     top: 59px;
@@ -24,5 +26,14 @@
     margin-top: 10px;
     overflow: hidden;
     border-radius: 25px;
-    padding: 15px;
+    padding: 15px; */
+    display: flex;
+}
+
+.kotak {
+    margin: 0;
+    /* min-width: 100%; */
+    width: 55em;
+    left: -1%;
+    margin-left: -7em;
 }

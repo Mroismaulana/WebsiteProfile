@@ -88,13 +88,51 @@ body {
   background-repeat: no-repeat;
 }
 
-footer {
+.footer {
+  position: sticky;
+  bottom: 0;
   text-align: center;
   padding: 3px;
   background-color: rgba(255, 255, 255, 0.8);
   color: black;
-  margin-top: 520px;
-  width: 1000px;
-  margin-left: 175px;
   border-radius: 25px;
+}
+
+.kotak {
+  position: relative;
+  width: calc(100% - 7em);
+  height: max-content;
+  margin-top: 1em;
+  margin-bottom: 0px;
+  left: 3.5em;
+  padding: 5px;
+  padding: auto;
+  background-color: #d9d9d9aa;
+  border-radius: 15px;
+}
+.kotak-invisible {
+  width: calc(100% - 7em);
+  margin-top: 1em;
+  background-color: #d9d9d900;
+}
+
+.kaki {
+  position: absolute;
+  display: grid;
+  margin-top: 2%;
+  align-items: center;
+  height: min-content;
+  background-color: #d9d9d9aa;
+  justify-items: center;
+  border-radius: 15px;
+  width: calc(100% - 7em);
+  justify-content: center;
+  align-content: center;
+  left: 3.5em;
+
+  /* position: absolute;
+  bottom: 0;
+  height: min-content;
+  background-color: #d9d9d9aa;
+  border-radius: 15px; */
 }

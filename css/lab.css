@@ -1,9 +1,22 @@
 .teks-h1 {
-    color: white; 
+    color: white;
     background-color: #3F5A6F;
     text-align: center;
 }
-.img1{
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img div img {
+    margin-inline-end: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+
+/* .img1{
     position: absolute;
     width: 300px;
     height: 296px;
@@ -25,7 +38,7 @@
         height: 296px;
         left: 950px;
         top: 154px;
-        }
+        } */
 
 .otkp {
     position: absolute;
@@ -33,12 +46,14 @@
     left: 160px;
     color: aliceblue;
 }
+
 .akl {
     position: absolute;
     top: 435px;
     color: aliceblue;
     left: 600px;
 }
+
 .rpl {
     position: absolute;
     top: 435px;

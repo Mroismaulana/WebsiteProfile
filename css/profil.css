@@ -21,9 +21,8 @@
   }
   .browser-info {
     position: absolute;
-    top: 18.5%;
     width: 77.5%;
-    height: 293px;
+    height: 290px;
     margin: 10px;
     left: 285px;
     font-size: 90%;
@@ -32,9 +31,8 @@
   }
   .browser-infol {
     position: absolute;
-    top:65%;
     width: 77.5%;
-    height: 293px;
+    height: 290px;
     margin: 10px;
     left: 285px;
     font-size: 90%;
