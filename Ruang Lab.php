@@ -20,7 +20,7 @@ include "./core/header.php";
   <img class="img3" src="img/P1.jpg"> -->
 
   <h1 class="teks-h1">Ruang Lab</h1>
-  <div class="container-lg mb-auto img">
+  <div class="container-lg mb-auto img kotak-invisible">
     <div class="row">
       <div class="col">
         <img class="" src="img/P1.jpg">

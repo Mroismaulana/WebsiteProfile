@@ -16,7 +16,7 @@ menuActiveClass("ekskul");
 
 <body>
 
-  <div class="container-lg">
+  <div class="container-lg kotak-invisible">
     <div class="offcanvas-header">
       <h1 class="teks-h1">Ekstrakulikuler</h1>
     </div>

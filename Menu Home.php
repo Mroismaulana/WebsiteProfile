@@ -5,10 +5,11 @@
 require('./core/url.php');
 
 include('./core/header.php');
-menuActiveClass('home');
 ?>
 
 <body>
+  
+  <?php menuActiveClass('home');?>
 
   <div class="kotak">
     <p>
@@ -21,7 +22,7 @@ menuActiveClass('home');
     </p>
   </div>
 </body>
-
 <?php include('./core/footer.php'); ?>
+
 
 </html>

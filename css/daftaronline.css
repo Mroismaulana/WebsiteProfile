@@ -7,7 +7,8 @@
     margin: 0px;
     left: 55px;
     /* padding: 25px; */
-    padding: auto;
+    padding-bottom: 8em;
+    /* padding: auto; */
     background-color: #d9d9d9aa;
     border-radius: 15px;
 }

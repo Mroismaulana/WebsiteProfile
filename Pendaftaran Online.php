@@ -131,7 +131,6 @@ include("./core/header.php");
                         <br>
                         <input type="submit" value="Kirim">
                     </div>
-                    <div class="col"></div>
                 </div>
             </div>
         </form>

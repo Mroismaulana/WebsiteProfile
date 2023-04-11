@@ -25,7 +25,7 @@ menuActiveClass("profil");
         </div>
       </div>
     </div>
-    <dic class="container">
+    <dic class="container anti-footer">
       <div class="row">
         <article class="col browser">
           <img src="img/P1.jpg" width="233px">
@@ -50,8 +50,8 @@ menuActiveClass("profil");
   </article>
 
 </body>
-<?php 
+<?php
 include("./core/footer.php");
 ?>
+
 </html>
-    

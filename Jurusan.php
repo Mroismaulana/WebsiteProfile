@@ -53,7 +53,7 @@ include("./core/header.php");
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur, similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus?
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur, similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus?
         </p>
-        </div>
+      </div>
     </div>
   </div>
 

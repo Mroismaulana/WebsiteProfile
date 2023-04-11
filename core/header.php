@@ -226,7 +226,7 @@ function menuActiveClass($nama){
                 </div>
             </li>
             <li><a class='' href='{$_url}Pendaftaran Online.php'>Pendaftaran Online</a></li>
-            <li><a class='active' href='Statistik.php'>Statistik Calon Siswa Baru</a></li>
+            <li><a class='' href='Statistik.php'>Statistik Calon Siswa Baru</a></li>
         </ul>
     </header>
         ";
@@ -272,7 +272,7 @@ function menuActiveClass($nama){
             <li><a class='' href='Menu Visi Misi.php'>Visi Misi</a></li>
             <li><a class='' href='Profil Guru.php'>Profil Guru</a></li>
             <li class='dropdown'>
-                <a class='active' href='javascript:void(0)' class='dropbtn'>Kegiatan</a>
+                <a class='' href='javascript:void(0)' class='dropbtn'>Kegiatan</a>
                 <div class='dropdown-content'>
                     <a href='Ekstrakulikuler.php'>Ekstrakulikuler</a>
                     <a href='Study Tour.php'>Study Tour</a>
