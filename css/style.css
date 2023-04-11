@@ -123,13 +123,12 @@ body {
   margin: 0px;
   display: grid;
   margin-top: 2%;
-  align-items: center;
-  height: 8em;
+  height: 10em;
   background-color: #d9d9d9;
-  justify-items: center;
   width: 100%;
   left: 0px;
-  justify-content: center;
-  align-content: center;
   bottom: 0px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  
 }
