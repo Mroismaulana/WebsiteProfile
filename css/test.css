@@ -1,0 +1,79 @@
+nav {
+    background-color: #f09;
+    color: #fff;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    position: relative;
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  nav ul li:hover > ul {
+    display: inherit;
+  }
+  
+  nav ul ul li {
+    position: relative;
+    flex: 1;
+  }
+  
+  nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+  }
+  
+  nav ul ul a {
+    padding: 10px;
+    display: block;
+  }
+  
+  nav ul ul ul a {
+    padding-left: 20px;
+  }
+  
+  nav ul li:hover > a {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  nav ul ul li:hover > a {
+    background-color: #ddd;
+  }
+  
+  nav a:hover {
+    background-color: #000;
+  }
+  
+  nav ul ul li:nth-child(odd) {
+    background-color: #f09;
+  }
+  
+  nav ul ul li:nth-child(even) {
+    background-color: #f90;
+  }
+  
