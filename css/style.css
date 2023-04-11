@@ -132,3 +132,17 @@ body {
   margin-bottom: 0px;
   
 }
+.row {
+  width: 13%;
+  position: fixed;
+  margin-bottom: 6em;
+  margin: 10px;
+  padding: 10px;
+  margin-left: 9em;
+  margin-top: 0em;
+}
+.col1 {
+  position: fixed;
+  margin: ;
+  padding: ;
+}
