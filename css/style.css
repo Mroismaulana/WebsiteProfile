@@ -64,7 +64,7 @@ li.dropdown {
 
 /*background*/
 body {
-  background-image: url('./../img/D3.jpg');
+  background-image: url('https://th.bing.com/th/id/OIP.73JeL8LtteF95dREVDRWDwHaH6?pid=ImgDet&w=181&h=193&c=7');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -105,16 +105,16 @@ body {
   margin-top: 1em;
   margin-bottom: 0px;
   left: 3.5em;
-  padding: 5px;
-  padding: auto;
+  padding-bottom: 8em;
   background-color: #d9d9d9aa;
   border-radius: 15px;
+  padding: 5px;
 }
 
 .kotak-invisible {
   width: calc(100% - 7em);
   margin-top: 1em;
-  padding-bottom: 8em;
+  padding-bottom: 160px;
   background-color: #d9d9d900;
 }
 
@@ -123,15 +123,18 @@ body {
   margin: 0px;
   display: grid;
   margin-top: 2%;
-  height: 10em;
+  height: 8em;
   background-color: #d9d9d9;
-  width: 100%;
-  left: 0px;
+  width: calc(100% - 7em);
+  left: calc(50% - (100% - 7em)/2);
+  /* width: 100%; */
+  /* left: 0px; */
   bottom: 0px;
   padding-left: 10px;
   margin-bottom: 0px;
   
 }
+<<<<<<< HEAD
 .row {
   width: 13%;
   position: fixed;
@@ -145,4 +148,25 @@ body {
   position: fixed;
   margin: ;
   padding: ;
+=======
+.isikaki {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.img-kaki {
+  margin-inline-start: 10em;
+}
+
+.copyright {
+  margin: 0px
+}
+
+.copyright p {
+  position: absolute;
+  bottom: -10px;
+>>>>>>> 35ab2a62f1610702f7bd0a746ca20010d066e90d
 }
