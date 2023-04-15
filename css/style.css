@@ -64,7 +64,7 @@ li.dropdown {
 
 /*background*/
 body {
-  background-image: url('https://th.bing.com/th/id/OIP.73JeL8LtteF95dREVDRWDwHaH6?pid=ImgDet&w=181&h=193&c=7');
+  background-image: url('../img/bck1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -122,33 +122,18 @@ body {
   position: fixed;
   margin: 0px;
   display: grid;
-  margin-top: 2%;
+  margin-top: 1%;
   height: 8em;
   background-color: #d9d9d9;
   width: calc(100% - 7em);
   left: calc(50% - (100% - 7em)/2);
   /* width: 100%; */
   /* left: 0px; */
-  bottom: 0px;
+  bottom: 1px;
   padding-left: 10px;
   margin-bottom: 0px;
   
 }
-<<<<<<< HEAD
-.row {
-  width: 13%;
-  position: fixed;
-  margin-bottom: 6em;
-  margin: 10px;
-  padding: 10px;
-  margin-left: 9em;
-  margin-top: 0em;
-}
-.col1 {
-  position: fixed;
-  margin: ;
-  padding: ;
-=======
 .isikaki {
   display: flex;
   flex-direction: row;
@@ -168,5 +153,4 @@ body {
 .copyright p {
   position: absolute;
   bottom: -10px;
->>>>>>> 35ab2a62f1610702f7bd0a746ca20010d066e90d
 }
