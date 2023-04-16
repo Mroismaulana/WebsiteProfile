@@ -1,49 +1,53 @@
 .all-browsers {
-    margin: 0;
-    padding: 5px;
-    /* background-color: lightgray; */
-  }
-  
-  .all-browsers > h1, .browser {
-    margin: 10px;
-    padding: 5px;
-  }
-  
-  .browser {
-    background: white;
-    width: 233px;
-    float: lef;
-  }
-  
-  .browser > h2, p {
-    margin: 4px;
-    font-size: 90%;
-  }
-  .browser-info {
-    position: absolute;
-    width: 77.5%;
-    height: 290px;
-    margin: 10px;
-    left: 285px;
-    font-size: 90%;
-    background: #fafafa;
-    float: left;
-  }
-  .browser-infol {
-    position: absolute;
-    width: 77.5%;
-    height: 290px;
-    margin: 10px;
-    left: 285px;
-    font-size: 90%;
-    background: #fafafa;
-    float: left;
-  }
-  h1 {
-    background-color: #3F5A6F;
-    color: #FFFFFF;
-    stroke: white;
-    width: 100%;
-  }
-  
-  
+  margin: 0;
+  padding: 5px;
+  padding-bottom: 8em;
+  /* background-color: lightgray; */
+}
+
+.all-browsers>h1,
+.browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+  width: 233px;
+  float: lef;
+}
+
+.browser>h2,
+p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+.browser-info {
+  position: absolute;
+  width: 77.5%;
+  height: 290px;
+  margin: 10px;
+  left: 285px;
+  font-size: 90%;
+  background: #fafafa;
+  float: left;
+}
+
+.browser-infol {
+  position: absolute;
+  width: 77.5%;
+  height: 290px;
+  margin: 10px;
+  left: 285px;
+  font-size: 90%;
+  background: #fafafa;
+  float: left;
+}
+
+h1 {
+  background-color: #3F5A6F;
+  color: #FFFFFF;
+  stroke: white;
+  width: 100%;
+}
