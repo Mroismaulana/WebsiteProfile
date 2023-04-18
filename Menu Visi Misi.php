@@ -9,7 +9,6 @@ include("./core/header.php");
 <head>
     <title>SMK Assyafi'iyyah 01 Jakarta</title>
     <link rel="shortcut icon" href="img/D2.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./css/visimisi.css">
 </head>
 

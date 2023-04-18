@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="./css/bootstrap/bootstrap-grid.css">
     <link rel="stylesheet" href="./css/bootstrap/bootstrap-utilities.css">
     <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./../js/bootstrap/bootstrap.js"></script>
+    <script src="./../js/bootstrap/bootstrap.bundle.js"></script>
 </head>
 
 <?php
