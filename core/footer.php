@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="copyright">
-            <p>Kelompok 2 &copy;2023</p>
+            <p>Kelompok 2 (RPL) &copy;2023</p>
         </div>
     </div>
 </footer>
