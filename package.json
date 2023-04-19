@@ -1,0 +1,22 @@
+{
+  "name": "websiteprofile",
+  "version": "1.0.0",
+  "description": "Tugas membuat web profile sekolah",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mroismaulana/WebsiteProfile.git"
+  },
+  "author": "Kelompok Website Profile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mroismaulana/WebsiteProfile/issues"
+  },
+  "homepage": "https://github.com/Mroismaulana/WebsiteProfile#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}

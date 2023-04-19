@@ -6,12 +6,13 @@
 
     <!-- CSS -->
     <!-- <link rel="stylesheet" href="./css/bootstrap/bootstrap.css"> -->
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-grid.css">
-    <link rel="stylesheet" href="./css/bootstrap/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-utilities.min.css">
     <link rel="stylesheet" href="./css/style.css">
 
-    <script src="./../js/bootstrap/bootstrap.js"></script>
-    <script src="./../js/bootstrap/bootstrap.bundle.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
 </head>
 
 <?php
