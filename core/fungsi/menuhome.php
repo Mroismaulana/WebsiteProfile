@@ -58,7 +58,7 @@ function draw_slideFoto(){
             <p>$deskrip</p>
             </div>
             </div>";
-        }else {
+        }else if ($index_slide > 1) {
             echo "
             <div class='carousel-item' data-bs-interval='500'>
             <a href='$goto'>
@@ -69,8 +69,24 @@ function draw_slideFoto(){
             <p>$deskrip</p>
             </div>
             </div>";
+        }else {
+            echo "";
         }
     }
 }
 
-?>
+function draw_indikasigambar(){
+    global $koneksi;
+
+    for ($index_slide = 1; $index_slide <= get_jmlBarisTblFoto($koneksi); $index_slide++) {
+        $slide = $index_slide-1;
+
+        if ($index_slide == 1){
+            echo "<button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='$slide' class='active' aria-current='true' aria-label='Slide $index_slide'></button>";
+        }else if ($index_slide > 1){
+            echo "<button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='$slide' aria-label='Slide $index_slide'></button>";
+        }else {
+            echo "";
+        }
+    }
+}
