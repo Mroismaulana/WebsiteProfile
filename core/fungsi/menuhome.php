@@ -82,9 +82,9 @@ function draw_indikasigambar(){
         $slide = $index_slide-1;
 
         if ($index_slide == 1){
-            echo "<button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='$slide' class='active' aria-current='true' aria-label='Slide $index_slide'></button>";
+            echo "<button type='button' data-bs-target='#main_slidefoto' data-bs-slide-to='$slide' class='active' aria-current='true' aria-label='Slide $index_slide'></button>";
         }else if ($index_slide > 1){
-            echo "<button type='button' data-bs-target='#carouselExampleCaptions' data-bs-slide-to='$slide' aria-label='Slide $index_slide'></button>";
+            echo "<button type='button' data-bs-target='#main_slidefoto' data-bs-slide-to='$slide' aria-label='Slide $index_slide'></button>";
         }else {
             echo "";
         }
