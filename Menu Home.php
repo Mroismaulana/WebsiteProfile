@@ -5,12 +5,34 @@
 require('./core/url.php');
 
 include('./core/header.php');
+include('./core/fungsi/menuhome.php');
 ?>
 
 <body>
   <?php menuActiveClass('home'); ?>
 
-  <div class="kotak">
+  <div class="container-xxl kotak">
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <?php draw_slideFoto();?>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id illo dolores totam rerum explicabo quis repudiandae. Fugit vel recusandae tempora, aperiam distinctio nisi eveniet voluptatem sit deleniti. Sunt, fugit.
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore id illo dolores totam rerum explicabo quis repudiandae. Fugit vel recusandae tempora, aperiam distinctio nisi eveniet voluptatem sit deleniti. Sunt, fugit.

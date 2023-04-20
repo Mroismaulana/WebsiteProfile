@@ -1,7 +1,7 @@
 /* Navbar 2.0 */
 .bar-navigasi {
   background-color: #333;
-  padding: 0px;
+  padding: 10px;
 }
 
 .menu-aktif {
@@ -61,7 +61,7 @@ body {
   height: max-content;
   margin-top: 1em;
   margin-bottom: 0px;
-  left: 3.5em;
+  /* left: 3.5em; */
   background-color: #d9d9d9aa;
   border-radius: 15px;
   padding: 5px;
