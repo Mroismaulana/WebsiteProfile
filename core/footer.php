@@ -35,7 +35,7 @@
                 </ul>
             </div>
             <div class="col">
-                <img class="moto-smk" src="<?php url();?>img/smk-bisa-smk-hebat.png" width="196px" height="118px" alt="Moto SMK?">
+                <img class="moto-smk" src="<?php url(); ?>img/smk-bisa-smk-hebat.png" width="196px" height="118px" alt="Moto SMK?">
             </div>
         </div>
         <div class="copyright">
@@ -43,3 +43,6 @@
         </div>
     </div>
 </footer>
+
+<script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>

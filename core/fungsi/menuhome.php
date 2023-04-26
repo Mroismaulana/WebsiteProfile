@@ -2,90 +2,116 @@
 include "./core/db_con.php";
 // include "./core/url.php";
 
-function get_jmlBarisTblFoto($koneksi){
-    $sql = "SELECT * FROM `foto_beranda`;";
+function get_jmlBarisTblFoto($target_tabel)
+{
+    global $koneksi;
+    $sql = "SELECT * FROM `$target_tabel`;";
     $hasil = mysqli_query($koneksi, $sql);
 
     return mysqli_num_rows($hasil);
 }
 
-function get_pathtoimg($id){
+function get_pathtoimg($target_tabel, $id)
+{
     global $koneksi;
-    $sql = "SELECT `path_to_img` FROM `foto_beranda` WHERE `id`='$id';";
+    $sql = "SELECT `path_to_img` FROM `$target_tabel` WHERE `id`='$id';";
     $hasil = mysqli_query($koneksi, $sql);
 
     return mysqli_fetch_assoc($hasil)['path_to_img'];
 }
-function get_judulimg($id){
+function get_judulimg($target_tabel, $id)
+{
     global $koneksi;
-    $sql = "SELECT `judul_img` FROM `foto_beranda` WHERE `id`='$id';";
+    $sql = "SELECT `judul_img` FROM `$target_tabel` WHERE `id`='$id';";
     $hasil = mysqli_query($koneksi, $sql);
 
     return mysqli_fetch_assoc($hasil)['judul_img'];
 }
-function get_deskripimg($id){
+function get_deskripimg($target_tabel, $id)
+{
     global $koneksi;
-    $sql = "SELECT `deskripsi_img` FROM `foto_beranda` WHERE `id`='$id';";
+    $sql = "SELECT `deskripsi_img` FROM `$target_tabel` WHERE `id`='$id';";
     $hasil = mysqli_query($koneksi, $sql);
 
     return mysqli_fetch_assoc($hasil)['deskripsi_img'];
 }
 
-function get_imggotourl($id){
+function get_imggotourl($target_tabel, $id)
+{
     global $koneksi;
-    $sql = "SELECT `goto_url` FROM `foto_beranda` WHERE `id`='$id';";
+    $sql = "SELECT `goto_url` FROM `$target_tabel` WHERE `id`='$id';";
     $hasil = mysqli_query($koneksi, $sql);
-    
+
     return mysqli_fetch_assoc($hasil)['goto_url'];
 }
 
-function draw_slideFoto(){
-
-    global $koneksi;
-    for ($index_slide = 1; $index_slide <= get_jmlBarisTblFoto($koneksi); $index_slide++){
-        $path = dxurl().get_pathtoimg($index_slide);
-        $judul = get_judulimg($index_slide);
-        $deskrip = get_deskripimg($index_slide);
-        $goto = dxurl().get_imggotourl($index_slide);
-        if ($index_slide == 1){
-            echo "
-            <div class='carousel-item active' data-bs-interval='500'>
-            <a href='$goto'>
-            <img src='$path' class='d-block w-100' alt='Ruang Fasilitas Lab AKL' width='556.8' height='517.6'>
-            </a>
-            <div class='carousel-caption d-none d-md-block'>
-            <h5>$judul</h5>
-            <p>$deskrip</p>
-            </div>
-            </div>";
-        }else if ($index_slide > 1) {
-            echo "
-            <div class='carousel-item' data-bs-interval='500'>
-            <a href='$goto'>
-            <img src='$path' class='d-block w-100' alt='Ruang Fasilitas Lab AKL' width='556.8' height='517.6'>
-            </a>
-            <div class='carousel-caption d-none d-md-block'>
-            <h5>$judul</h5>
-            <p>$deskrip</p>
-            </div>
-            </div>";
-        }else {
+function draw_slideFoto($target_tabel)
+{
+    for ($index_slide = 1; $index_slide <= get_jmlBarisTblFoto($target_tabel); $index_slide++) {
+        $path = dxurl() . get_pathtoimg($target_tabel, $index_slide);
+        $judul = get_judulimg($target_tabel, $index_slide);
+        $deskrip = get_deskripimg($target_tabel, $index_slide);
+        $goto = dxurl() . get_imggotourl($target_tabel, $index_slide);
+        if ($index_slide == 1) {
+            if ($goto == "#") {
+                echo "
+                <div class='carousel-item active' data-bs-interval='1000'>
+                <img src='$path' class='d-block w-100' alt='Ruang Fasilitas Lab AKL' width='556.8' height='517.6'>
+                <div class='carousel-caption d-none d-md-block'>
+                <h5>$judul</h5>
+                <p>$deskrip</p>
+                </div>
+                </div>";
+            } else {
+                echo "
+                <div class='carousel-item active' data-bs-interval='100'>
+                <a href='$goto'>
+                <img src='$path' class='d-block w-100' alt='Ruang Fasilitas Lab AKL' width='556.8' height='517.6'>
+                </a>
+                <div class='carousel-caption d-none d-md-block'>
+                <h5>$judul</h5>
+                <p>$deskrip</p>
+                </div>
+                </div>";
+            }
+        } else if ($index_slide > 1) {
+            if ($goto == "#") {
+                echo "
+                <div class='carousel-item' data-bs-interval='1000'>
+                <a href='$goto'>
+                <img src='$path' class='d-block w-100' alt='Ruang Fasilitas Lab AKL' width='556.8' height='517.6'>
+                </a>
+                <div class='carousel-caption d-none d-md-block'>
+                <h5>$judul</h5>
+                <p>$deskrip</p>
+                </div>
+                </div>";
+            } else {
+                echo "
+                <div class='carousel-item' data-bs-interval='100'>
+                <img src='$path' class='d-block w-100' alt='Ruang Fasilitas Lab AKL' width='556.8' height='517.6'>
+                <div class='carousel-caption d-none d-md-block'>
+                <h5>$judul</h5>
+                <p>$deskrip</p>
+                </div>
+                </div>";
+            }
+        } else {
             echo "";
         }
     }
 }
 
-function draw_indikasigambar(){
-    global $koneksi;
+function draw_indikasigambar($target_tabel, $target)
+{
+    for ($index_slide = 1; $index_slide <= get_jmlBarisTblFoto($target_tabel); $index_slide++) {
+        $slide = $index_slide - 1;
 
-    for ($index_slide = 1; $index_slide <= get_jmlBarisTblFoto($koneksi); $index_slide++) {
-        $slide = $index_slide-1;
-
-        if ($index_slide == 1){
-            echo "<button type='button' data-bs-target='#main_slidefoto' data-bs-slide-to='$slide' class='active' aria-current='true' aria-label='Slide $index_slide'></button>";
-        }else if ($index_slide > 1){
-            echo "<button type='button' data-bs-target='#main_slidefoto' data-bs-slide-to='$slide' aria-label='Slide $index_slide'></button>";
-        }else {
+        if ($index_slide == 1) {
+            echo "<button type='button' data-bs-target='#$target' data-bs-slide-to='$slide' class='active' aria-current='true' aria-label='Slide $index_slide'></button>";
+        } else if ($index_slide > 1) {
+            echo "<button type='button' data-bs-target='#$target' data-bs-slide-to='$slide' aria-label='Slide $index_slide'></button>";
+        } else {
             echo "";
         }
     }

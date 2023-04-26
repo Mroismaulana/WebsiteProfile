@@ -12,9 +12,6 @@
     <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-utilities.min.css"> -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
-
-    <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </head>
 
 <?php
