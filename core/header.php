@@ -7,9 +7,6 @@
     <link rel="shortcut icon" href="./img/D2.jpg" type="image/x-icon">
 
     <!-- CSS -->
-    <!-- <link rel="stylesheet" href="./css/bootstrap/bootstrap.css"> -->
-    <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-grid.min.css"> -->
-    <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-utilities.min.css"> -->
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>

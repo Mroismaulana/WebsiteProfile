@@ -2,6 +2,7 @@
 include "./core/db_con.php";
 // include "./core/url.php";
 
+#region get
 function get_jmlBarisTblFoto($target_tabel)
 {
     global $koneksi;
@@ -44,7 +45,9 @@ function get_imggotourl($target_tabel, $id)
 
     return mysqli_fetch_assoc($hasil)['goto_url'];
 }
+#endregion
 
+#region draw-main slide
 function draw_slideFoto($target_tabel)
 {
     for ($index_slide = 1; $index_slide <= get_jmlBarisTblFoto($target_tabel); $index_slide++) {
@@ -116,3 +119,15 @@ function draw_indikasigambar($target_tabel, $target)
         }
     }
 }
+#endregion
+
+#region draw-acara
+function get_infoAcara($target_tabel) {
+    $path = dxurl() . get_pathtoimg($target_tabel, 1);
+    $judul = get_judulimg($target_tabel, 1);
+    $deskrip = get_deskripimg($target_tabel, 1);
+    $goto = dxurl() . get_imggotourl($target_tabel, 1);
+
+    return [$path, $judul, $deskrip, $goto];
+}
+#endregion

@@ -44,17 +44,17 @@ include('./core/fungsi/menuhome.php');
     </div>
 
     <div class="container">
-      <h4 class="text-start">Upcoming Event</h4>
+      <h4 class="text-start">Acara Mendatang!</h4>
       <hr>
       <div class="row">
         <div class="col-4">
-        <img src='./img/LDKS/img (3).jpg' alt='Event' class="img-thumbnail" style="background-color: var(--bs-gray-500);">
+        <img src='<?php echo get_infoAcara("branda_acara")[0]?>' alt='Event' class="img-thumbnail" style="background-color: var(--bs-gray-500);">
         </div>
         <div class="col-8">
-          <h5 class="text-start">Judul Event</h5>
+          <h5 class="text-start"><?php echo get_infoAcara("branda_acara")[1]?></h5>
           <hr>
           <p class="text-start">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos inventore suscipit excepturi accusantium distinctio recusandae maiores, numquam modi similique quas quibusdam odit exercitationem consequatur accusamus delectus nesciunt sed earum fuga!
+          <?php echo get_infoAcara("branda_acara")[2]?>
           </p>
         </div>
       </div>
