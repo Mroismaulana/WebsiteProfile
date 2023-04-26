@@ -1,22 +1,64 @@
-/* Navbar 2.0 */
-.bar-navigasi {
+/*navbar*/
+.menu {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
   background-color: #333;
-  padding: 10px;
 }
 
-.menu-aktif {
+.menu li {
+  float: left;
+}
+
+li .menu-a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
   background-color: #04AA6D;
-  border-radius: 5px;
 }
 
-.teks-bar-nav-color {
-  color:white;
-  padding-left: 3px;
-  /* font-size: medium; */
+/*dropdown*/
+li .menu-a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #04AA6D;
 }
-.teks-bar-nav-color:hover {
-  color:white;
-  /* font-size: medium; */
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.mar {
+  background-color: #f1f1f1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 /*background*/
@@ -61,11 +103,11 @@ body {
   height: max-content;
   margin-top: 1em;
   margin-bottom: 0px;
-  /* left: 3.5em; */
+  left: 3.5em;
+  padding-bottom: 8em;
   background-color: #d9d9d9aa;
   border-radius: 15px;
   padding: 5px;
-  padding-bottom: 8em;
 }
 
 .kotak-invisible {
@@ -82,10 +124,10 @@ body {
   margin-top: 1%;
   height: 8em;
   background-color: #d9d9d9;
-  width: calc(100%);
-  /* left: calc(50% - (100% - 7em)/2); */
+  width: calc(100% - 7em);
+  left: calc(50% - (100% - 7em)/2);
   /* width: 100%; */
-  left: 0px;
+  /* left: 0px; */
   bottom: 1px;
   padding-left: 10px;
   margin-bottom: 0px;
@@ -112,8 +154,6 @@ body {
   position: absolute;
   bottom: -5px;
   left: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: smaller;
 }
 
 .kaki-informasi {
@@ -139,8 +179,4 @@ body {
 
 .moto-smk{
   margin-top: 5px;
-}
-
-.slide-foto {
-  margin-block: 10px;
 }
