@@ -1,6 +1,6 @@
 <?php 
 function url(){
-    echo "http://127.0.0.1/main/Website%20Profile%20(Kelompok%20Rois)/WebsiteProfile/";
+    echo "http://127.0.0.1/websiteprofile/";
 }
 function dxurl(){
     $d = "./";

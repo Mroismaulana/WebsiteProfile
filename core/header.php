@@ -4,16 +4,15 @@
     <meta name="description" content="Tugas Website Profile Sekolah Oleh Kelas RPL 2023">
     <title>SMK Assyafi'iyyah 01 Jakarta</title>
 
-    <link rel="shortcut icon" href="./img/D2.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php url();?>img/D2.jpg" type="image/x-icon">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="<?php url();?>node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php url();?>css/style.css">
 </head>
 
 <?php
 function menuActiveClass($nama){
-    $_url = dxurl();
     if ($nama === 'home'){
         echo "
 <header>
