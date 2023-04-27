@@ -13,7 +13,9 @@ include("./core/header.php");
 </head>
 
 <body>
-  <?php menuActiveClass("jurus"); ?>
+
+  <?php navbar("jurus"); ?>
+  
   <h1 class="teks-h1">Jurusan</h1>
   <div class="container-lg kotak-invisible">
     <div class="row">

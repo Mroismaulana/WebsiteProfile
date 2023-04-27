@@ -9,8 +9,8 @@ include("./core/header.php");
 <link rel="stylesheet" href="./css/daftaronline.css">
 
 <body>
-    <?php menuActiveClass('daftaronline');?>
-
+    
+    <?php navbar('daftaronline');?>
 
     <div class="kotak-daftar mb-auto">
         <h1 style="text-align: center;">Form Pendaftaran Siswa Baru</h1><br>

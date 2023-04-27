@@ -1,7 +1,6 @@
 <?php
 include("./core/url.php");
 include("./core/header.php");
-menuActiveClass("ekskul");
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +14,8 @@ menuActiveClass("ekskul");
 </head>
 
 <body>
+
+  <?php navbar("ekskul");?>
 
   <div class="container-lg kotak-invisible">
     <div class="offcanvas-header">

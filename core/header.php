@@ -12,7 +12,7 @@
 </head>
 
 <?php
-function menuActiveClass($nama){
+function navbar($nama){
     if ($nama === 'home'){
         echo "
 <header>

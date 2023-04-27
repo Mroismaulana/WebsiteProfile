@@ -1,7 +1,6 @@
 <?php
 include('./core/url.php');
 include('./core/header.php');
-menuActiveClass("profil");
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,6 +15,8 @@ menuActiveClass("profil");
 </head>
 
 <body>
+
+  <?php navbar("profil");?>
 
   <article class="all-browsers" class="article">
     <div class="container text-center">

@@ -9,7 +9,7 @@ include('./core/fungsi/menuhome.php');
 ?>
 
 <body>
-  <?php menuActiveClass('home'); ?>
+  <?php navbar('home'); ?>
 
   <div class="container-xxl kotak">
     <div class="container">

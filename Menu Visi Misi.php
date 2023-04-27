@@ -13,7 +13,9 @@ include("./core/header.php");
 </head>
 
 <body>
-<?php menuActiveClass("visimisi");?>
+    
+    <?php navbar("visimisi");?>
+
     <div class="container-md kotak-invisible">
         <div class="row isinya">
             <div class="col">

@@ -1,7 +1,6 @@
 <?php
 include('./core/url.php');
 include('./core/header.php');
-menuActiveClass("tour");
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,6 +13,8 @@ menuActiveClass("tour");
 </head>
 
 <body>
+  <?php navbar("tour");?>
+
   <h1 >Study Tour</h1>
 
 </body>

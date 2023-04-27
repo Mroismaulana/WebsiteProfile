@@ -1,7 +1,6 @@
 <?php
 include("./core/url.php");
 include("./core/header.php");
-menuActiveClass("ldks");
 ?>
 
 <!DOCTYPE html>
@@ -15,6 +14,7 @@ menuActiveClass("ldks");
 
 <body>
   
+  <?php navbar("ldks");?>
 
 </body>
 <?php

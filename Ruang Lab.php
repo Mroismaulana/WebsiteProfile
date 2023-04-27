@@ -13,7 +13,7 @@ include "./core/header.php";
 </head>
 
 <body>
-  <?php menuActiveClass("lab"); ?>
+  <?php navbar("lab"); ?>
 
   <!-- <img class="img1" src="img/P1.jpg">
   <img class="img2" src="img/P1.jpg">

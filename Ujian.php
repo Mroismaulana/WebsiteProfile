@@ -1,7 +1,6 @@
 <?php
 include('./core/url.php');
 include('./core/header.php');
-menuActiveClass("ujian");
 ?>
 <!DOCTYPE html>
 <html>
@@ -13,6 +12,9 @@ menuActiveClass("ujian");
 </head>
 
 <body>
+
+  <?php navbar("ujian");?>
+
   <h1 class="teks-h1">Ujian</h1>
   <div class="container-lg kotak-invisible">
     <div class="row">
