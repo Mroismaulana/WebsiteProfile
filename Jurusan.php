@@ -18,6 +18,7 @@ include("./core/header.php");
   
   <h1 class="teks-h1">Jurusan</h1>
   <div class="container-lg kotak-invisible">
+    <div container-md><p class="kotak" style="top: 8vh; margin-bottom:10px;">kata Pengantar</p></div>
     <div class="row">
       <h1 class="teks-h1">AKL</h1>
       <div class="container-lg img1">
@@ -52,6 +53,16 @@ include("./core/header.php");
       <div class="container-md">
         <p class="kotak">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur, similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur, similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur, similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus?
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <h2 class="teks-h2">Penutup</h2>
+      <div class="container-md">
+        <p class="kotak" style="bottom:-10vh">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur, similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus?
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur, similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus?
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur, similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus?
         </p>
