@@ -14,7 +14,13 @@
 }
 
 .kotak {
-    max-width: fit-content;
+    max-width: fix-content;
     margin-top: -9vh;
     padding-bottom: 8em;
+}
+.teks-h2 {
+    color: black;
+    text-align: left;
+    margin-top: 6vh;
+    text-align: left;
 }
