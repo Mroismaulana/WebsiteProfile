@@ -25,10 +25,10 @@ include('./core/header.php');
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
       </p>
     </div>
-    <div class="col">
+    <div class="row">
       <h2>lokasi</h2>
     </div>
-    <div>
+    <div class="row">
       <h2>fasilitas</h2>
     </div>
     <div>
