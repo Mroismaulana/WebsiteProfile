@@ -18,7 +18,7 @@
      	<input type="password" name="password" placeholder="Password"><br>
 
      	<button class="login"type="submit">Login</button>
-		<button a href='Menu Home.php' class="back" type="submit">Back</button>
+		<button onclick="history.back();" class="back" type="button">Back</button>
      </form>
 </body>
 </html>
