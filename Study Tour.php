@@ -27,15 +27,35 @@ include('./core/header.php');
     </div>
     <div class="row">
       <h2>lokasi</h2>
+      <div class="col">
+        <p class="kotak">
+          lorem
+        </p>
+      </div>
     </div>
     <div class="row">
       <h2>fasilitas</h2>
+      <div class="col">
+        <p class="kotak">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis facere quidem doloribus quis at quos incidunt quaerat possimus quod, laudantium ab repellendus, temporibus nostrum ut atque totam iusto tempora. Officiis?
+        </p>
+      </div>
     </div>
-    <div>
+    <div class="row">
       <h2>manfaat</h2>
+      <div class="col">
+        <p class="kotak">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero nam animi vel atque iure amet velit tempore impedit explicabo doloremque ipsum repellat, ratione quam deserunt totam. Explicabo voluptatibus quibusdam harum?
+        </p>
+      </div>
     </div>
-    <div>
+    <div class="row">
       <h2>penutup</h2>
+      <div class="col">
+        <p class="kotak">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui id, facilis illum exercitationem omnis eveniet. Nam pariatur labore blanditiis reiciendis dolore quis laudantium error nesciunt voluptates! Voluptas porro nemo necessitatibus!
+        </p>
+      </div>
     </div>
   </div>
 </body>
