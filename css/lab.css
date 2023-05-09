@@ -6,3 +6,8 @@
     padding: 1vh;
     padding-top: calc(1vh * 0.25);
 }
+.carousel-inner .carousel-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

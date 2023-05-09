@@ -22,14 +22,14 @@ include "./core/header.php";
   <div class="container-xxl kotak ">
     <h1 class="teks-judul">Ruang Lab</h1>
       <hr>
-      <div class="container-fluid kotak-invisible">
+      <div class="container-fluid">
         <div id="FotoFotoRuangLab-interval" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#FotoFotoRuangLab-interval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#FotoFotoRuangLab-interval" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#FotoFotoRuangLab-interval" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-inner">
+          <div class="carousel-inner ">
             <div class="carousel-item active" data-bs-interval="10000">
               <img src="./img/lab/akl.jpeg" class="" alt="Ruang Lab AKL">
               <div class="carousel-caption">

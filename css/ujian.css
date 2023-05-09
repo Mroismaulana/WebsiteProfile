@@ -1,25 +1,13 @@
-.teks-h1 {
-    color: black;
-    background-color: #04AA6D;
-    text-align: center;
+.teks-judul {
+    /* color: white; */
+    text-align: left;
+    width: 100%;
+    margin-top: 0;
+    padding: 1vh;
+    padding-top: calc(1vh * 0.25);
 }
-
-.img {
-    position: relative;
-    width: 300px;
-    height: 296px;
-    /* left: 950px; */
-    /* top: 154px; */
-}
-
-.kotak-invisible {
-    width: calc(100% - 7em);
-    margin-top: 1em;
-    margin-block-start: 1vh;
-    display: grid;
-    background-color: #d9d9d900;
-    justify-items: center;
-    align-items: center;
-    justify-content: space-evenly;
-    align-content: center;
+.carousel-inner .carousel-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
