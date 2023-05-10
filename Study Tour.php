@@ -49,14 +49,6 @@ include('./core/header.php');
         </p>
       </div>
     </div>
-    <div class="row">
-      <h2>penutup</h2>
-      <div class="col">
-        <p class="kotak">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui id, facilis illum exercitationem omnis eveniet. Nam pariatur labore blanditiis reiciendis dolore quis laudantium error nesciunt voluptates! Voluptas porro nemo necessitatibus!
-        </p>
-      </div>
-    </div>
   </div>
 </body>
 </html>
