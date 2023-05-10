@@ -2,7 +2,7 @@
     <div class="isikaki">
         <div class="row">
             <div class="col">
-                <img class="img-kaki" src="<?php url(); ?>img/Logo.png" alt="" width="120px" height="120px">
+                <img class="img-kaki" src="<?php url(); ?>img/Logo.png" alt="" width="80px" height="80px">
             </div>
             <div class="col">
                 <!-- lengkapi yang kurang? -->
@@ -16,26 +16,26 @@
                 <ul type="none" class="kaki-informasi sosmed">
                     <li>
                         <a href="https://www.youtube.com/@smkas-syafiiyahjakarta4972">
-                            <img src="<?php url(); ?>img/Icon2.png.png" width="25px">
+                            <img src="<?php url(); ?>img/Icon2.png.png" width="20px">
                             Youtube
                         </a>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/@smkas-syafiiyahjakarta4972">
-                            <img src="<?php url(); ?>img/Icon2.png.png" width="25px">
+                            <img src="<?php url(); ?>img/Icon2.png.png" width="20px">
                             Youtube
                         </a>
                     </li>
                     <li>
                         <a href="https://www.youtube.com/@smkas-syafiiyahjakarta4972">
-                            <img src="<?php url(); ?>img/Icon2.png.png" width="25px">
+                            <img src="<?php url(); ?>img/Icon2.png.png" width="20px">
                             Youtube
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="col">
-                <img class="moto-smk" src="<?php url(); ?>img/smk-bisa-smk-hebat.png" width="196px" height="118px" alt="Moto SMK?">
+                <img class="moto-smk" src="<?php url(); ?>img/smk-bisa-smk-hebat.png" width="178px" height="70px" alt="Moto SMK?">
             </div>
         </div>
         <div class="copyright">

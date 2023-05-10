@@ -22,7 +22,7 @@ include("./core/header.php");
                 <img class="foto" src="./img/P1.jpg" alt="Kepala Sekolah">
             </div>
             <div class="col">
-                <p class="kotak mb-auto">
+                <p class="kotak mb-auto" style="text-align: justify;" >
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error quia tempore, laboriosam suscipit sunt obcaecati non. Nam fuga harum, corporis quos, perferendis sapiente iure nisi dolor sunt voluptate excepturi voluptas.

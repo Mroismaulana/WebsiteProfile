@@ -83,13 +83,13 @@ body {
   margin: 0px;
   display: grid;
   margin-top: 1%;
-  height: 8em;
+  height: 5em;
   background-color: #d9d9d9;
   width: calc(100%);
   /* left: calc(50% - (100% - 7em)/2); */
   /* width: 100%; */
   left: 0px;
-  bottom: 1px;
+  bottom: -3px;
   padding-left: 10px;
   margin-bottom: 0px;
 
@@ -141,7 +141,7 @@ body {
 }
 
 .moto-smk{
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 .slide-foto {

@@ -18,6 +18,7 @@ include("./core/header.php");
   
   <h1 class="teks-h1">Jurusan</h1>
   <div class="container-lg kotak-invisible">
+    <div container-md><p class="kotak" style="top: 8vh; margin-bottom:10px;">kata Pengantar</p></div>
     <div class="row">
       <div class="container-md">
       <p class="kotak" style="top: 4em; padding:5px;">
