@@ -747,7 +747,7 @@ function navbar($nama){
     <header>
         <nav class='navbar navbar-expand-lg bar-navigasi'>
             <div class='container-fluid'>
-                <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
+                <a class='navbar-brand teks-bar-nav-color' href='#'><img src='../img/Logo.png' alt='Logo' width='50'
                         class='d-inline-block text-white'>
                     SMK Asyfai'iyah 01 Jakarta
                 </a>
