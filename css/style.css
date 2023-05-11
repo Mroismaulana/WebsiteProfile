@@ -19,13 +19,6 @@
   /* font-size: medium; */
 }
 
-<<<<<<< Updated upstream
-=======
-.admin{
-  float: right;
-}
-
->>>>>>> Stashed changes
 /*background*/
 body {
   background-image: url('../img/bck1.jpg');
@@ -69,7 +62,7 @@ body {
   margin-top: 1em;
   margin-bottom: 0px;
   /* left: 3.5em; */
-  background-color: #333;
+  background-color: #d9d9d9;
   border-radius: 15px;
   padding: 5px;
   padding-top: 0px;
@@ -91,7 +84,8 @@ body {
   display: grid;
   margin-top: 1%;
   height: 5em;
-  background-color: #d9d9d9;
+  color: #d9d9d9;
+  background-color: #333;
   width: calc(100%);
   /* left: calc(50% - (100% - 7em)/2); */
   /* width: 100%; */
@@ -153,4 +147,8 @@ body {
 
 .slide-foto {
   margin-block: 10px;
+}
+
+.tombol-login {
+  margin-right: 0;
 }

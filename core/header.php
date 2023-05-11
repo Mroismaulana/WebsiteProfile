@@ -33,9 +33,6 @@ function navbar($nama){
                             href='Menu Home.php'>Home</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
-                    </li>
-                    <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
                     </li>
                     <li class='nav-item'>
@@ -69,6 +66,9 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -94,9 +94,6 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color ' aria-current='page'
                             href='Menu Home.php'>Home</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
@@ -132,6 +129,9 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -157,9 +157,6 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color ' aria-current='page'
                             href='Menu Home.php'>Home</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
@@ -195,6 +192,9 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color menu-aktif'>Statistik Calon Siswa Baru</a>
                     </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -220,9 +220,6 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color ' aria-current='page'
                             href='Menu Home.php'>Home</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
@@ -258,6 +255,9 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -283,9 +283,6 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color ' aria-current='page'
                             href='Menu Home.php'>Home</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color menu-aktif' href='Menu Visi Misi.php'>Visi Misi</a>
@@ -321,6 +318,9 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -346,9 +346,6 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color ' aria-current='page'
                             href='Menu Home.php'>Home</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
@@ -383,6 +380,9 @@ function navbar($nama){
                     </li>
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
+                    </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
 <<<<<<< Updated upstream
 =======
@@ -417,9 +417,6 @@ function navbar($nama){
                             href='Menu Home.php'>Home</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
-                    </li>
-                    <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
                     </li>
                     <li class='nav-item'>
@@ -453,6 +450,9 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -478,9 +478,6 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color ' aria-current='page'
                             href='Menu Home.php'>Home</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
@@ -516,6 +513,9 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -541,9 +541,6 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color ' aria-current='page'
                             href='Menu Home.php'>Home</a>
-                    </li>
-                    <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
@@ -578,6 +575,9 @@ function navbar($nama){
                     </li>
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
+                    </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
                 </ul>
             </div>
@@ -606,9 +606,6 @@ function navbar($nama){
                             href='Menu Home.php'>Home</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
-                    </li>
-                    <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
                     </li>
                     <li class='nav-item'>
@@ -641,6 +638,9 @@ function navbar($nama){
                     </li>
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
+                    </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
                 </ul>
             </div>
@@ -669,9 +669,6 @@ function navbar($nama){
                             href='Menu Home.php'>Home</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
-                    </li>
-                    <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
                     </li>
                     <li class='nav-item'>
@@ -704,6 +701,9 @@ function navbar($nama){
                     </li>
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
+                    </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
                 </ul>
             </div>
@@ -731,9 +731,6 @@ function navbar($nama){
                             href='Menu Home.php'>Home</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
-                    </li>
-                    <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
                     </li>
                     <li class='nav-item'>
@@ -766,6 +763,9 @@ function navbar($nama){
                     </li>
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
+                    </li>
+                    <li class='nav-item tombol-login'>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
                     </li>
 <<<<<<< Updated upstream
 =======
