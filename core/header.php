@@ -151,13 +151,13 @@ function navbar($nama){
                 <ul class='navbar-nav'>
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color ' aria-current='page'
-                            href='Menu Home.php'>Home</a>
+                            href='../Menu Home.php'>Home</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
+                        <a class='nav-link teks-bar-nav-color' href='../Menu Visi Misi.php'>Visi Misi</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='Profil Guru.php'>Profil Guru</a>
+                        <a class='nav-link teks-bar-nav-color' href='../Profil Guru.php'>Profil Guru</a>
                     </li>
                     <li class='nav-item dropdown'>
                         <a class='nav-link dropdown-toggle teks-bar-nav-color' href='#' role='button'
@@ -165,9 +165,9 @@ function navbar($nama){
                             Kegiatan
                         </a>
                         <ul class='dropdown-menu'>
-                            <li><a class='dropdown-item' href='Ekstrakulikuler.php'>Ekstrakulikuler</a></li>
-                            <li><a class='dropdown-item' href='Study Tour.php'>Study Tour</a></li>
-                            <li><a class='dropdown-item' href='LDKS.php'>LDKS</a></li>
+                            <li><a class='dropdown-item' href='../Ekstrakulikuler.php'>Ekstrakulikuler</a></li>
+                            <li><a class='dropdown-item' href='../Study Tour.php'>Study Tour</a></li>
+                            <li><a class='dropdown-item' href='../LDKS.php'>LDKS</a></li>
                         </ul>
                     </li>
                     <li class='nav-item dropdown'>
@@ -176,13 +176,13 @@ function navbar($nama){
                             Fasilitas
                         </a>
                         <ul class='dropdown-menu'>
-                            <li><a class='dropdown-item' href='Ruang Lab.php'>Ruang Lab</a></li>
-                            <li><a class='dropdown-item' href='Jurusan.php'>Jurusan</a></li>
-                            <li><a class='dropdown-item' href='Ujian.php'>Ujian Bebasis Komputer</a></li>
+                            <li><a class='dropdown-item' href='../Ruang Lab.php'>Ruang Lab</a></li>
+                            <li><a class='dropdown-item' href='../Jurusan.php'>Jurusan</a></li>
+                            <li><a class='dropdown-item' href='../Ujian.php'>Ujian Bebasis Komputer</a></li>
                         </ul>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
+                        <a class='nav-link teks-bar-nav-color' href='../Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
                     <li class='nav-item'>
                             <a href='./statistik.php' class='nav-link teks-bar-nav-color menu-aktif'>Statistik Calon Siswa Baru</a>
@@ -761,13 +761,13 @@ function navbar($nama){
                     <ul class='navbar-nav'>
                         <li class='nav-item'>
                             <a class='nav-link teks-bar-nav-color ' aria-current='page'
-                                href='Menu Home.php'>Home</a>
+                                href='../Menu Home.php'>Home</a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
+                            <a class='nav-link teks-bar-nav-color' href='../Menu Visi Misi.php'>Visi Misi</a>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link teks-bar-nav-color' href='Profil Guru.php'>Profil Guru</a>
+                            <a class='nav-link teks-bar-nav-color' href='../Profil Guru.php'>Profil Guru</a>
                         </li>
                         <li class='nav-item dropdown'>
                             <a class='nav-link dropdown-toggle teks-bar-nav-color' href='#' role='button'
@@ -775,27 +775,27 @@ function navbar($nama){
                                 Kegiatan
                             </a>
                             <ul class='dropdown-menu'>
-                                <li><a class='dropdown-item' href='Ekstrakulikuler.php'>Ekstrakulikuler</a></li>
-                                <li><a class='dropdown-item' href='Study Tour.php'>Study Tour</a></li>
-                                <li><a class='dropdown-item' href='LDKS.php'>LDKS</a></li>
+                                <li><a class='dropdown-item' href='../Ekstrakulikuler.php'>Ekstrakulikuler</a></li>
+                                <li><a class='dropdown-item' href='../Study Tour.php'>Study Tour</a></li>
+                                <li><a class='dropdown-item' href='../LDKS.php'>LDKS</a></li>
                             </ul>
                         </li>
                         <li class='nav-item dropdown'>
-                            <a class='nav-link dropdown-toggle teks-bar-nav-color menu-aktif' href='#' role='button'
+                            <a class='nav-link dropdown-toggle teks-bar-nav-color' href='#' role='button'
                                 data-bs-toggle='dropdown' aria-expanded='false'>
                                 Fasilitas
                             </a>
                             <ul class='dropdown-menu'>
-                                <li><a class='dropdown-item' href='Ruang Lab.php'>Ruang Lab</a></li>
-                                <li><a class='dropdown-item' href='Jurusan.php'>Jurusan</a></li>
-                                <li><a class='dropdown-item' href='Ujian.php'>Ujian Bebasis Komputer</a></li>
+                                <li><a class='dropdown-item' href='../Ruang Lab.php'>Ruang Lab</a></li>
+                                <li><a class='dropdown-item' href='../Jurusan.php'>Jurusan</a></li>
+                                <li><a class='dropdown-item' href='../Ujian.php'>Ujian Bebasis Komputer</a></li>
                             </ul>
                         </li>
                         <li class='nav-item'>
-                            <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
+                            <a class='nav-link teks-bar-nav-color' href='../Pendaftaran Online.php'>Pendaftaran Online</a>
                         </li>
                         <li class='nav-item'>
-                            <a href='./statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
+                            <a href='../statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                         </li>
                         <li style='float:right'>
                             <a class=' nav-item nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
