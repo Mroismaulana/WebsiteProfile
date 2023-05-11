@@ -18,7 +18,7 @@ function navbar($nama){
 <header>
     <nav class='navbar navbar-expand-lg bar-navigasi'>
         <div class='container-fluid'>
-            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='80'
+            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
                     class='d-inline-block text-white'>
                 SMK Asyfai'iyah 01 Jakarta
             </a>
@@ -144,7 +144,7 @@ function navbar($nama){
 <header>
     <nav class='navbar navbar-expand-lg bar-navigasi'>
         <div class='container-fluid'>
-            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='80'
+            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
                     class='d-inline-block text-white'>
                 SMK Asyfai'iyah 01 Jakarta
             </a>
@@ -270,7 +270,7 @@ function navbar($nama){
 <header>
     <nav class='navbar navbar-expand-lg bar-navigasi'>
         <div class='container-fluid'>
-            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='80'
+            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
                     class='d-inline-block text-white'>
                 SMK Asyfai'iyah 01 Jakarta
             </a>
@@ -333,7 +333,7 @@ function navbar($nama){
 <header>
     <nav class='navbar navbar-expand-lg bar-navigasi'>
         <div class='container-fluid'>
-            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='80'
+            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
                     class='d-inline-block text-white'>
                 SMK Asyfai'iyah 01 Jakarta
             </a>
@@ -384,6 +384,12 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
+<<<<<<< Updated upstream
+=======
+                    <li class='nav-item admin'>
+                        <a class='nav-link teks-bar-nav-color' class='login' href='./login-system/'>Admin</a>
+                    </li>
+>>>>>>> Stashed changes
                 </ul>
             </div>
         </div>
@@ -396,7 +402,7 @@ function navbar($nama){
 <header>
     <nav class='navbar navbar-expand-lg bar-navigasi'>
         <div class='container-fluid'>
-            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='80'
+            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
                     class='d-inline-block text-white'>
                 SMK Asyfai'iyah 01 Jakarta
             </a>
@@ -459,7 +465,7 @@ function navbar($nama){
 <header>
     <nav class='navbar navbar-expand-lg bar-navigasi'>
         <div class='container-fluid'>
-            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='80'
+            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
                     class='d-inline-block text-white'>
                 SMK Asyfai'iyah 01 Jakarta
             </a>
@@ -522,7 +528,7 @@ function navbar($nama){
 <header>
     <nav class='navbar navbar-expand-lg bar-navigasi'>
         <div class='container-fluid'>
-            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='80'
+            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
                     class='d-inline-block text-white'>
                 SMK Asyfai'iyah 01 Jakarta
             </a>
@@ -585,7 +591,7 @@ function navbar($nama){
 <header>
     <nav class='navbar navbar-expand-lg bar-navigasi'>
         <div class='container-fluid'>
-            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='80'
+            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
                     class='d-inline-block text-white'>
                 SMK Asyfai'iyah 01 Jakarta
             </a>
@@ -648,7 +654,7 @@ function navbar($nama){
 <header>
     <nav class='navbar navbar-expand-lg bar-navigasi'>
         <div class='container-fluid'>
-            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='80'
+            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
                     class='d-inline-block text-white'>
                 SMK Asyfai'iyah 01 Jakarta
             </a>
@@ -710,7 +716,7 @@ function navbar($nama){
 <header>
     <nav class='navbar navbar-expand-lg bar-navigasi'>
         <div class='container-fluid'>
-            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='80'
+            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
                     class='d-inline-block text-white'>
                 SMK Asyfai'iyah 01 Jakarta
             </a>
@@ -761,6 +767,12 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
+<<<<<<< Updated upstream
+=======
+                    <li style='float:right'>
+                        <a class=' nav-item nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                    </li>
+>>>>>>> Stashed changes
                 </ul>
             </div>
         </div>

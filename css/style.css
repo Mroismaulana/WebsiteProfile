@@ -19,6 +19,13 @@
   /* font-size: medium; */
 }
 
+<<<<<<< Updated upstream
+=======
+.admin{
+  float: right;
+}
+
+>>>>>>> Stashed changes
 /*background*/
 body {
   background-image: url('../img/bck1.jpg');
@@ -57,12 +64,12 @@ body {
 
 .kotak {
   position: relative;
-  width: calc(100% - 7em);
   height: max-content;
+  width: calc(100% - 7em);
   margin-top: 1em;
   margin-bottom: 0px;
   /* left: 3.5em; */
-  background-color: #d9d9d9aa;
+  background-color: #333;
   border-radius: 15px;
   padding: 5px;
   padding-bottom: 8em;
