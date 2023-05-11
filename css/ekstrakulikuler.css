@@ -1,59 +1,49 @@
-.teks-h1 {
-    color: black;
-    background-color: #04AA6D;
+/* ekstrakulikuler.css */
+
+/* Container */
+.container-lg {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Judul dan Paragraf */
+  .kull {
     text-align: center;
-}
-
-.teks-p {
-    color: black;
-    background-color: #04AA6D;
-    position: relative;
-    /* width: 650px; */
-    /* height: 76px; */
-    text-align: center;
-    font-size: x-large;
-}
-
-.kotak-invisible {
-    padding-bottom: 8em;
-}
-
-
-.img {
-    position: relative;
-    width: 400px;
-    height: 200px;
-    display: grid;
-    justify-items: center;
-    align-items: start;
-    align-content: stretch;
-    margin-inline-start: 25%;
-}
-
-.tes {
-    background-color: #dddd;
-    position: relative;
-    height: 440px;
-    margin: 0px;
-    padding: 1em;
-}
-.kull {
-    color: white;
-    background-color: #3F5A6F;
-    text-align: center;
-    padding: 0.1em;
-    margin: 0.5em;
-}
-.paragraf {
+  }
+  
+  .paragraf {
+    margin-left: 0.6em;
+  }
+  
+  /* Ekskul */
+  .ektra {
+    margin-top: 40px;
+  }
+  
+  /* Gambar */
+  .foto {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+  
+  /* Deskripsi */
+  .des {
     margin-left: 0.6em;
     margin-bottom: 1em;
-    font-family: 'Times New Roman', Times, serif;
-}
-.ektra {
-    margin-left: 0.2em;
-    margin-bottom: 1.5em;
-}
-.foto {
-    width: 60em;
-    height: 30em;
-}
+  }
+  .foto {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+  
+  @media (min-width: 992px) {
+    .foto {
+      width: 60em;
+      height: 30em;
+    }
+  }
