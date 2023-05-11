@@ -1,53 +1,47 @@
-.all-browsers {
-  margin: 0;
-  padding: 5px;
-  padding-bottom: 8em;
-  /* background-color: lightgray; */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-.all-browsers>h1,
-.browser {
-  margin: 10px;
-  padding: 5px;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.browser {
-  background: white;
-  width: 233px;
-  float: lef;
+.col {
+  flex-basis: 100%;
+  margin-bottom: 30px;
 }
 
-.browser>h2,
-p {
-  margin: 4px;
-  font-size: 90%;
+@media (min-width: 768px) {
+  .col {
+    flex-basis: calc(50% - 15px);
+    margin-bottom: 30px;
+  }
 }
 
-.browser-info {
-  position: absolute;
-  width: 77.5%;
-  height: 290px;
-  margin: 10px;
-  left: 285px;
-  font-size: 90%;
-  background: #fafafa;
-  float: left;
-}
-
-.browser-infol {
-  position: absolute;
-  width: 77.5%;
-  height: 290px;
-  margin: 10px;
-  left: 285px;
-  font-size: 90%;
-  background: #fafafa;
-  float: left;
+.guru-img {
+  width: 100%;
+  max-width: 233px;
+  height: auto;
+  margin-bottom: 10px;
+  border: 1px solid #000;
 }
 
 h1 {
+  text-align: center;
   background-color: #3F5A6F;
-  color: #FFFFFF;
-  stroke: white;
-  width: 100%;
+  color: white;
+  margin-bottom: -0.1em;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 10px;
 }

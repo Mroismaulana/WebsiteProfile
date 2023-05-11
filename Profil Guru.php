@@ -2,57 +2,71 @@
 include('./core/url.php');
 include('./core/header.php');
 ?>
+
 <!DOCTYPE html>
 <html>
 
 <head>
   <title>SMK Assyafi'iyyah 01 Jakarta</title>
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="img/D2.jpg" type="image/x-icon">
-  <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css">
   <link rel="stylesheet" href="./css/profil.css">
-
 </head>
 
 <body>
-
   <?php navbar("profil");?>
 
-  <article class="all-browsers" class="article">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col">
-          <h1 align="center"><b>Profil Guru</b></h1>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Profil Guru</h1>
       </div>
     </div>
-    <dic class="container anti-footer">
-      <div class="row">
-        <article class="col browser">
-          <img src="img/P1.jpg" width="233px">
-          <h2>Kepala Sekolah</h2>
-          <p>Reza Pahlevi S.pd</p>
-        </article>
-        <article class="col browser-info">
-          <p>asdasdasdasd</p>
-        </article>
-      </div>
-      <div class="row">
-        <article class="col browser">
-          <img src="img/P1.jpg" width="233px">
-          <h2>Wakil kesiswaan</h2>
-          <p>Devy Arintika S.pd</p>
-        </article>
-        <article class="col browser-infol">
-          <p>asdasdasdasddasd</p>
-        </article>
-      </div>
-      </div>
-  </article>
 
+    <div class="row">
+      <div class="col">
+        <img class="guru-img" src="img/P1.jpg" alt="Kepala Sekolah">
+        <h2>Kepala Sekolah</h2>
+        <p>Reza Pahlevi S.pd</p>
+      </div>
+      <div class="col">
+        <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
+        <h2>Wakil Kesiswaan</h2>
+        <p>Devy Arintika S.pd</p>
+      </div>
+      <div class="col">
+        <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
+        <h2>Wakil Kesiswaan</h2>
+        <p>Devy Arintika S.pd</p>
+      </div>
+      <div class="col">
+        <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
+        <h2>Wakil Kesiswaan</h2>
+        <p>Devy Arintika S.pd</p>
+      </div>
+      <div class="col">
+        <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
+        <h2>Wakil Kesiswaan</h2>
+        <p>Devy Arintika S.pd</p>
+      </div>
+      <div class="col">
+        <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
+        <h2>Wakil Kesiswaan</h2>
+        <p>Devy Arintika S.pd</p>
+      </div>
+      <div class="col">
+        <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
+        <h2>Wakil Kesiswaan</h2>
+        <p>Devy Arintika S.pd</p>
+      </div>
+    </div>
+
+    <!-- Tambahkan guru-guru lainnya di sini -->
+    
+  </div>
+
+  <?php include("./core/footer.php");?>
 </body>
-<?php
-include("./core/footer.php");
-?>
+
+
 
 </html>
