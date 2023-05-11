@@ -1,8 +1,8 @@
 .teks-h1 {
-    color: black;
-    background-color: #04AA6D;
+    color: white;
+    background-color: #3F5A6F;
     text-align: center;
-    margin-top: 8vh;
+    margin-top: 0.3em;
     text-align: center;
 }
 
@@ -14,9 +14,11 @@
 }
 
 .kotak {
-    max-width: fix-content;
-    margin-top: -9vh;
-    padding-bottom: 8em;
+    max-width: fit-content;
+    margin-top: 1em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    align-items: center;
 }
 .teks-h2 {
     color: black;

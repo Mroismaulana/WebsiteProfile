@@ -67,7 +67,7 @@ function navbar($nama){
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
                     <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
                 </ul>
             </div>
@@ -130,7 +130,7 @@ function navbar($nama){
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
                     <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
                 </ul>
             </div>
@@ -193,7 +193,7 @@ function navbar($nama){
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color menu-aktif'>Statistik Calon Siswa Baru</a>
                     </li>
                     <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
                 </ul>
             </div>
@@ -256,7 +256,7 @@ function navbar($nama){
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
                     <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
                 </ul>
             </div>
@@ -319,7 +319,7 @@ function navbar($nama){
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
                     <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
                 </ul>
             </div>
@@ -381,15 +381,9 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
-                    <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
-                    </li>
-<<<<<<< Updated upstream
-=======
                     <li class='nav-item admin'>
-                        <a class='nav-link teks-bar-nav-color' class='login' href='./login-system/'>Admin</a>
+                        <a class='nav-link teks-bar-nav-color' class='login' href='./login-system/'>Login</a>
                     </li>
->>>>>>> Stashed changes
                 </ul>
             </div>
         </div>
@@ -451,7 +445,7 @@ function navbar($nama){
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
                     <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
                 </ul>
             </div>
@@ -514,7 +508,7 @@ function navbar($nama){
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
                     <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
                 </ul>
             </div>
@@ -577,7 +571,7 @@ function navbar($nama){
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
                     <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
                 </ul>
             </div>
@@ -640,7 +634,7 @@ function navbar($nama){
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
                     <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
                 </ul>
             </div>
@@ -703,7 +697,7 @@ function navbar($nama){
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
                     <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
                 </ul>
             </div>
@@ -764,15 +758,9 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
                     </li>
-                    <li class='nav-item tombol-login'>
-                        <a class='nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
-                    </li>
-<<<<<<< Updated upstream
-=======
                     <li style='float:right'>
-                        <a class=' nav-item nav-link teks-bar-nav-color' href='./login-system/'>Admin</a>
+                        <a class=' nav-item nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
->>>>>>> Stashed changes
                 </ul>
             </div>
         </div>
