@@ -16,7 +16,7 @@ include("./core/header.php");
 
   <?php navbar("ekskul");?>
 
-  <div class="container-lg kotak">
+  <div class="container-xxl kotak">
   <div class="pala">
     <h1 class="kull">Ekstrakulikuler</h1>
   </div>
