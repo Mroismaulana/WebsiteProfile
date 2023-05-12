@@ -28,7 +28,7 @@ include('./core/header.php');
         <h2>Kepala Sekolah</h2>
         <p>Reza Pahlevi S.pd</p>
       </div>
-      <div class="col">
+      <div class="col kanan">
         <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
         <h2>Wakil Kesiswaan</h2>
         <p>Devy Arintika S.pd</p>
@@ -38,7 +38,7 @@ include('./core/header.php');
         <h2>Wakil Kesiswaan</h2>
         <p>Devy Arintika S.pd</p>
       </div>
-      <div class="col">
+      <div class="col kanan">
         <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
         <h2>Wakil Kesiswaan</h2>
         <p>Devy Arintika S.pd</p>
@@ -48,12 +48,7 @@ include('./core/header.php');
         <h2>Wakil Kesiswaan</h2>
         <p>Devy Arintika S.pd</p>
       </div>
-      <div class="col">
-        <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
-        <h2>Wakil Kesiswaan</h2>
-        <p>Devy Arintika S.pd</p>
-      </div>
-      <div class="col">
+      <div class="col kanan">
         <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
         <h2>Wakil Kesiswaan</h2>
         <p>Devy Arintika S.pd</p>
