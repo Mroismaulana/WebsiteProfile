@@ -6,10 +6,13 @@ h1 {
   text-align: center;
 }
 .col {
-  margin-right: 8em;
+  margin-right: 3em;
 }
 .container {
   margin-bottom: 80px;
   text-align: center;
   position: relative;/* Atur jumlah ruang tambahan di sini */
+}
+.guru-img {
+  border: 2px solid black;
 }
