@@ -63,9 +63,6 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
-                    <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
-                    </li>
                     <li class='nav-item tombol-login'>
                         <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
@@ -126,9 +123,7 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color menu-aktif' href='Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
-                    <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
-                    </li>
+                    
                     <li class='nav-item tombol-login'>
                         <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
@@ -144,7 +139,7 @@ function navbar($nama){
 <header>
     <nav class='navbar navbar-expand-lg bar-navigasi'>
         <div class='container-fluid'>
-            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='./img/Logo.png' alt='Logo' width='50'
+            <a class='navbar-brand teks-bar-nav-color' href='#'><img src='../img/Logo.png' alt='Logo' width='50'
                     class='d-inline-block text-white'>
                 SMK Asyfai'iyah 01 Jakarta
             </a>
@@ -156,13 +151,13 @@ function navbar($nama){
                 <ul class='navbar-nav'>
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color ' aria-current='page'
-                            href='Menu Home.php'>Home</a>
+                            href='../Menu Home.php'>Home</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='Menu Visi Misi.php'>Visi Misi</a>
+                        <a class='nav-link teks-bar-nav-color' href='../Menu Visi Misi.php'>Visi Misi</a>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='Profil Guru.php'>Profil Guru</a>
+                        <a class='nav-link teks-bar-nav-color' href='../Profil Guru.php'>Profil Guru</a>
                     </li>
                     <li class='nav-item dropdown'>
                         <a class='nav-link dropdown-toggle teks-bar-nav-color' href='#' role='button'
@@ -170,9 +165,9 @@ function navbar($nama){
                             Kegiatan
                         </a>
                         <ul class='dropdown-menu'>
-                            <li><a class='dropdown-item' href='Ekstrakulikuler.php'>Ekstrakulikuler</a></li>
-                            <li><a class='dropdown-item' href='Study Tour.php'>Study Tour</a></li>
-                            <li><a class='dropdown-item' href='LDKS.php'>LDKS</a></li>
+                            <li><a class='dropdown-item' href='../Ekstrakulikuler.php'>Ekstrakulikuler</a></li>
+                            <li><a class='dropdown-item' href='../Study Tour.php'>Study Tour</a></li>
+                            <li><a class='dropdown-item' href='../LDKS.php'>LDKS</a></li>
                         </ul>
                     </li>
                     <li class='nav-item dropdown'>
@@ -181,17 +176,17 @@ function navbar($nama){
                             Fasilitas
                         </a>
                         <ul class='dropdown-menu'>
-                            <li><a class='dropdown-item' href='Ruang Lab.php'>Ruang Lab</a></li>
-                            <li><a class='dropdown-item' href='Jurusan.php'>Jurusan</a></li>
-                            <li><a class='dropdown-item' href='Ujian.php'>Ujian Bebasis Komputer</a></li>
+                            <li><a class='dropdown-item' href='../Ruang Lab.php'>Ruang Lab</a></li>
+                            <li><a class='dropdown-item' href='../Jurusan.php'>Jurusan</a></li>
+                            <li><a class='dropdown-item' href='../Ujian.php'>Ujian Bebasis Komputer</a></li>
                         </ul>
                     </li>
                     <li class='nav-item'>
-                        <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
+                        <a class='nav-link teks-bar-nav-color' href='../Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
                     <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color menu-aktif'>Statistik Calon Siswa Baru</a>
-                    </li>
+                            <a href='./statistik.php' class='nav-link teks-bar-nav-color menu-aktif'>Statistik Calon Siswa Baru</a>
+                        </li>
                     <li class='nav-item tombol-login'>
                         <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
@@ -252,9 +247,7 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
-                    <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
-                    </li>
+                    
                     <li class='nav-item tombol-login'>
                         <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
@@ -315,9 +308,7 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
-                    <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
-                    </li>
+                    
                     <li class='nav-item tombol-login'>
                         <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
@@ -378,9 +369,7 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
-                    <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
-                    </li>
+                    
                     <li class='nav-item admin'>
                         <a class='nav-link teks-bar-nav-color' class='login' href='./login-system/'>Login</a>
                     </li>
@@ -441,9 +430,7 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
-                    <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
-                    </li>
+                    
                     <li class='nav-item tombol-login'>
                         <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
@@ -504,9 +491,7 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
-                    <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
-                    </li>
+                    
                     <li class='nav-item tombol-login'>
                         <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
@@ -567,9 +552,7 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
-                    <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
-                    </li>
+                    
                     <li class='nav-item tombol-login'>
                         <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
@@ -630,9 +613,7 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
-                    <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
-                    </li>
+                    
                     <li class='nav-item tombol-login'>
                         <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
@@ -693,9 +674,7 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
-                    <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
-                    </li>
+                    
                     <li class='nav-item tombol-login'>
                         <a class='nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
@@ -755,9 +734,7 @@ function navbar($nama){
                     <li class='nav-item'>
                         <a class='nav-link teks-bar-nav-color' href='Pendaftaran Online.php'>Pendaftaran Online</a>
                     </li>
-                    <li class='nav-item'>
-                        <a href='Statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
-                    </li>
+                    
                     <li style='float:right'>
                         <a class=' nav-item nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
                     </li>
@@ -767,6 +744,68 @@ function navbar($nama){
     </nav>
 </header>
             ";}
+            else if ($nama === 'adminhom'){
+                echo "
+    <header>
+        <nav class='navbar navbar-expand-lg bar-navigasi'>
+            <div class='container-fluid'>
+                <a class='navbar-brand teks-bar-nav-color' href='#'><img src='../img/Logo.png' alt='Logo' width='50'
+                        class='d-inline-block text-white'>
+                    SMK Asyfai'iyah 01 Jakarta
+                </a>
+                <button class='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavDropdown'
+                    aria-controls='navbarNavDropdown' aria-expanded='false' aria-label='Toggle navigation'>
+                    <span class='navbar-toggler-icon'></span>
+                </button>
+                <div class='collapse navbar-collapse' id='navbarNavDropdown'>
+                    <ul class='navbar-nav'>
+                        <li class='nav-item'>
+                            <a class='nav-link teks-bar-nav-color ' aria-current='page'
+                                href='../Menu Home.php'>Home</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link teks-bar-nav-color' href='../Menu Visi Misi.php'>Visi Misi</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link teks-bar-nav-color' href='../Profil Guru.php'>Profil Guru</a>
+                        </li>
+                        <li class='nav-item dropdown'>
+                            <a class='nav-link dropdown-toggle teks-bar-nav-color' href='#' role='button'
+                                data-bs-toggle='dropdown' aria-expanded='false'>
+                                Kegiatan
+                            </a>
+                            <ul class='dropdown-menu'>
+                                <li><a class='dropdown-item' href='../Ekstrakulikuler.php'>Ekstrakulikuler</a></li>
+                                <li><a class='dropdown-item' href='../Study Tour.php'>Study Tour</a></li>
+                                <li><a class='dropdown-item' href='../LDKS.php'>LDKS</a></li>
+                            </ul>
+                        </li>
+                        <li class='nav-item dropdown'>
+                            <a class='nav-link dropdown-toggle teks-bar-nav-color' href='#' role='button'
+                                data-bs-toggle='dropdown' aria-expanded='false'>
+                                Fasilitas
+                            </a>
+                            <ul class='dropdown-menu'>
+                                <li><a class='dropdown-item' href='../Ruang Lab.php'>Ruang Lab</a></li>
+                                <li><a class='dropdown-item' href='../Jurusan.php'>Jurusan</a></li>
+                                <li><a class='dropdown-item' href='../Ujian.php'>Ujian Bebasis Komputer</a></li>
+                            </ul>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link teks-bar-nav-color' href='../Pendaftaran Online.php'>Pendaftaran Online</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a href='../statistik.php' class='nav-link teks-bar-nav-color'>Statistik Calon Siswa Baru</a>
+                        </li>
+                        <li style='float:right'>
+                            <a class=' nav-item nav-link teks-bar-nav-color' href='./login-system/'>Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+                ";}
 
 }
 ?>
