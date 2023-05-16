@@ -27,7 +27,7 @@ Proyek ini bertujuan untuk mengembangkan sebuah website profil untuk SMK Asyafi'
 
 ## Cara Pasang
 1. Install XAMPP, Nodejs (kalo belum punya)
-2. Download File Rilis
+2. Download File Rilis [`Download Proyek`](https://github.com/Mroismaulana/WebsiteProfile/releases)
 3. Taro File Rilis Di HTDOCS
 4. ketik `npm install` di root projek
 5. Buat Database dengan nama yang sesuai ada di folder `.database` Import Database
