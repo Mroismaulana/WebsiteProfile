@@ -4,7 +4,7 @@
     margin-top: 10px;
     width: 225px;
     height: 225px;
-    /* left: 2em; */
+    right: 3em; 
     /* top: 59px; */
     background-color: #ffffff00;
     border-radius: 25px;
@@ -36,4 +36,5 @@
     width: 55em;
     left: -1%;
     margin-left: -7em;
+    margin-top: 10px;
 }

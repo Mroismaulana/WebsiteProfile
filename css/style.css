@@ -57,15 +57,18 @@ body {
 
 .kotak {
   position: relative;
-  width: calc(100% - 7em);
   height: max-content;
+  width: calc(100% - 7em);
   margin-top: 1em;
   margin-bottom: 0px;
   /* left: 3.5em; */
-  background-color: #d9d9d9aa;
+  background-color: #d9d9d9;
   border-radius: 15px;
   padding: 5px;
+  padding-top: 0px;
   padding-bottom: 8em;
+  display: grid;
+  justify-content: space-evenly;
 }
 
 .kotak-invisible {
@@ -80,13 +83,14 @@ body {
   margin: 0px;
   display: grid;
   margin-top: 1%;
-  height: 8em;
-  background-color: #d9d9d9;
+  height: 5em;
+  color: #d9d9d9;
+  background-color: #333;
   width: calc(100%);
   /* left: calc(50% - (100% - 7em)/2); */
   /* width: 100%; */
   left: 0px;
-  bottom: 1px;
+  bottom: -3px;
   padding-left: 10px;
   margin-bottom: 0px;
 
@@ -138,9 +142,13 @@ body {
 }
 
 .moto-smk{
-  margin-top: 5px;
+  margin-top: 2px;
 }
 
 .slide-foto {
   margin-block: 10px;
+}
+
+.tombol-login {
+  margin-right: 0;
 }

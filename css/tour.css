@@ -1,5 +1,19 @@
-h1 {
-    text-align: center;
-    background-color: #3F5A6F;
-    color: white;
+.teks-judul {
+  /* color: white; */
+  text-align: left;
+  width: 100%;
+  margin-top: 0;
+  padding: 1vh;
+  padding-top: calc(1vh * 0.25);
+  background-color: #3F5A6F;
+  color: white;
+}
+.carousel-inner .carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wow {
+  width: 1040px;
+  height: 480;
 }

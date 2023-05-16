@@ -8,7 +8,6 @@ include("./core/header.php");
 
 <head>
   <title>SMK Assyafi'iyyah 01 Jakarta</title>
-  <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="img/D2.jpg" type="image/x-icon">
   <link rel="stylesheet" href="./css/ekstrakulikuler.css">
 </head>
@@ -17,23 +16,64 @@ include("./core/header.php");
 
   <?php navbar("ekskul");?>
 
-  <div class="container-lg kotak-invisible">
-    <div class="offcanvas-header">
-      <h1 class="teks-h1">Ekstrakulikuler</h1>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="row img">
-          <img class="" src="img/P1.jpg">
-        </div>
-        <div class="row">
-          <p class="teks-p">SILAT</p>
-        </div>
-      </div>
-      <div class="col">
-        <p class="tes">tes</p>
-      </div>
-    </div>
+  <div class="container-xxl kotak">
+  <div class="pala">
+    <h1 class="kull">Ekstrakulikuler</h1>
+  </div>
+  <div class="ektra">
+    <h2>Tahsin</h2>
+  </div>
+  <div>
+    <img class="foto" src="img/Lab/AKL.jpeg" alt="">
+  </div>
+  <div class="des">
+    <p>Ekskul ini merupakan ekskul yang wajib di hadiri seluruh siswa maupun siswi</p>
+  </div>
+  <div class="ektra">
+    <h2>Futsal</h2>
+  </div>
+  <div class="foto">
+  <img class="foto" src="img/Lab/AKL.jpeg" alt="">
+  </div>
+  <div class="des">
+    <p>Ekskul ini merupakan ekskul yang wajib di hadiri seluruh siswa maupun siswi</p>
+  </div>
+  <div class="ektra">
+    <h2>Marawis</h2>
+  </div>
+  <div class="foto">
+  <img class="foto" src="img/Lab/AKL.jpeg" alt="">
+  </div>
+  <div class="des">
+    <p>Ekskul ini merupakan ekskul yang wajib di hadiri seluruh siswa maupun siswi</p>
+  </div>
+  <div class="ektra">
+    <h2>Silat</h2>
+  </div>
+  <div class="foto">
+  <img class="foto" src="img/Lab/AKL.jpeg" alt="">
+  </div>
+  <div class="des">
+    <p>Ekskul ini merupakan ekskul yang wajib di hadiri seluruh siswa maupun siswi</p>
+  </div>
+  <div class="ektra">
+    <h2>Pramuka</h2>
+  </div>
+  <div class="foto">
+  <img class="foto" src="img/Lab/AKL.jpeg" alt="">
+  </div>
+  <div class="des">
+    <p>Ekskul ini merupakan ekskul yang wajib di hadiri seluruh siswa maupun siswi</p>
+  </div>
+  <div class="ektra">
+    <h2>Osis</h2>
+  </div>
+  <div class="foto">
+  <img class="foto" src="img/Lab/AKL.jpeg" alt="">
+  </div>
+  <div class="des">
+    <p>Ekskul ini merupakan ekskul yang wajib di hadiri seluruh siswa maupun siswi</p>
+  </div>
   </div>
 
 </body>

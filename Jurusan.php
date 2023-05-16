@@ -18,12 +18,19 @@ include("./core/header.php");
   
   <h1 class="teks-h1">Jurusan</h1>
   <div class="container-lg kotak-invisible">
+    <div container-md><p class="kotak";"> 
+     ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur,
+     similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur, similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur,
+     similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus?
+    </p></div>
     <div class="row">
+      <div class="container-md">
+      </div>
       <h1 class="teks-h1">AKL</h1>
       <div class="container-lg img1">
         <img class="" src="img/P1.jpg">
       </div>
-      <div class="container-md">
+      <div class="container-md tengah">
         <p class="kotak">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur, similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus?
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae blanditiis aliquam nobis. Temporibus ex accusantium asperiores aperiam repellat aspernatur, similique maiores dolorem nostrum et vitae eius, obcaecati culpa repellendus?
