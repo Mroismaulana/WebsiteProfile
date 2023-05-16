@@ -8,7 +8,7 @@ Proyek ini bertujuan untuk mengembangkan sebuah website profil untuk SMK Asyafi'
 
 - [@Mroismaulana](https://github.com/Mroismaulana) (LORD | NPC | Ketuak | INTERNAL)
 - [@marrr26](https://github.com/marrr26) (NPC | BABU | CO-Ketuak | INTERNAL)
-- [@maul-lq](https://github.com/maul-lq) (TUKANG NGODING | BABU | MASTER)
+- [@maul-lq](https://github.com/maul-lq) (TUKANG NGODING | BABU | MASTER | IMPOSTOR | EXTERNAL)
 - [@Alllwee](https://github.com/Alllwee) (HABIB TEKNOLOGI | BABU | MC | INTERNAL)
 
 ## Fitur
