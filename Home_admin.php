@@ -2,10 +2,10 @@
 <html lang="id">
 
 <?php
-require('../core/url.php');
+require('./core/url.php');
 
-include('../core/header.php');
-include('../core/fungsi/menuhomeadm.php');
+include('./core/header.php');
+include('./core/fungsi/menuhome.php');
 ?>
 
 <body>
@@ -61,7 +61,7 @@ include('../core/fungsi/menuhomeadm.php');
     </div>
   </div>
 </body>
-<?php include('../core/footer.php'); ?>
+<?php include('./core/footer.php'); ?>
 
 
 </html>

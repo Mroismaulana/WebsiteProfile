@@ -14,7 +14,7 @@ include("./core/header.php");
 
     <div class="kotak-daftar mb-auto">
         <h1 style="text-align: center;">Form Pendaftaran Siswa Baru</h1><br>
-        <form action="./core/fungsi/daftaronline.php" method="get">
+        <form action="./core/fungsi/daftaronline.php" method="post">
             <div class="container">
                 <div class="row">
                     <h3 class="teks-h3 mb-4">Data Diri</h3>
