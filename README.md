@@ -24,3 +24,12 @@ Proyek ini bertujuan untuk mengembangkan sebuah website profil untuk SMK Asyafi'
 - LDKS
 - Pendaftaran Online
 - DLL.
+
+## Installation
+
+### Cara Pasang
+1. Install XAMPP (kalo belum punya)
+2. Download File Rilis
+3. Taro File Rilis Di HTDOCS
+4. Buat Database dengan nama yang sesuai ada di folder `.database` Import Database
+5. Selesai?
