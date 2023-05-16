@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 26, 2023 at 04:53 PM
+-- Generation Time: May 16, 2023 at 11:26 AM
 -- Server version: 10.4.28-MariaDB
--- PHP Version: 8.0.28
+-- PHP Version: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,48 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_websiteprofile`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admin`
+--
+
+CREATE TABLE `admin` (
+  `id` int(3) NOT NULL,
+  `ussername` varchar(5) NOT NULL,
+  `password` varchar(10) NOT NULL,
+  `nama` varchar(20) NOT NULL,
+  `email` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `admin`
+--
+
+INSERT INTO `admin` (`id`, `ussername`, `password`, `nama`, `email`) VALUES
+(1, 'admin', '12345', 'Admin', 'admin@adminweb.id');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `branda_acara`
+--
+
+CREATE TABLE `branda_acara` (
+  `id` int(20) NOT NULL,
+  `path_to_img` varchar(100) NOT NULL,
+  `goto_url` varchar(50) NOT NULL,
+  `judul_img` varchar(50) NOT NULL,
+  `deskripsi_img` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci COMMENT='Tabel letak foto yang ditampilkan di halaman branda';
+
+--
+-- Dumping data for table `branda_acara`
+--
+
+INSERT INTO `branda_acara` (`id`, `path_to_img`, `goto_url`, `judul_img`, `deskripsi_img`) VALUES
+(1, '/img/LDKS/img (3).jpg', '#', 'Judul Acara', 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos inventore suscipit excepturi accusantium distinctio recusandae maiores, numquam modi similique quas quibusdam odit exercitationem consequatur accusamus delectus nesciunt sed earum fuga!');
 
 -- --------------------------------------------------------
 
@@ -72,6 +114,18 @@ INSERT INTO `branda_foto` (`id`, `path_to_img`, `goto_url`, `judul_img`, `deskri
 --
 
 --
+-- Indexes for table `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `branda_acara`
+--
+ALTER TABLE `branda_acara`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `branda_foto`
 --
 ALTER TABLE `branda_foto`
@@ -80,6 +134,18 @@ ALTER TABLE `branda_foto`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `admin`
+--
+ALTER TABLE `admin`
+  MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `branda_acara`
+--
+ALTER TABLE `branda_acara`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `branda_foto`
