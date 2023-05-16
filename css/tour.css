@@ -1,47 +1,19 @@
-h1 {
-    text-align: center;
-    background-color: #3F5A6F;
-    color: white;
-    margin-bottom: -0.1em;
+.teks-judul {
+  /* color: white; */
+  text-align: left;
+  width: 100%;
+  margin-top: 0;
+  padding: 1vh;
+  padding-top: calc(1vh * 0.25);
+  background-color: #3F5A6F;
+  color: white;
 }
-.kotak {
-    max-width: fit-content;
-    padding-bottom: 8em;
-} 
- h2 {
-    margin-left: 0.3em;
-    margin-bottom: 0.3em;
-    margin-top: 0.5em;
-} 
-figure {
-    text-align: center;
-  }
-  
-  .emag-container {
-    position: relative;
-    max-width: 100%;
-  }
-  
-  .emag {
-    width: 100%;
-    height: auto;
-  }
-  
-  .emag-caption {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 10px;
-    text-align: center;
-  }
-@media (min-width: 768px) {
-    .emag {
-      width: 32em;
-      height: 16em;
-      margin-right: 0.7em;
-      margin-left: 0.7em;
-    }
-  }
-  figcaption {
-    font-family: italic;
-  }
+.carousel-inner .carousel-item img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wow {
+  width: 1040px;
+  height: 480;
+}

@@ -20,9 +20,6 @@ include("./core/header.php");
   <div class="pala">
     <h1 class="kull">Ekstrakulikuler</h1>
   </div>
-  <div class="paragraf">
-    <h4>Berikut merupakan beberapa ekskul yang ada di SMK Asyafi'iyah</h4>
-  </div>
   <div class="ektra">
     <h2>Tahsin</h2>
   </div>

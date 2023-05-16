@@ -10,6 +10,8 @@
   /* Judul dan Paragraf */
   .kull {
     text-align: center;
+    background-color: #3F5A6F;
+    color: white;
   }
   
   .paragraf {

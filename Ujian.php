@@ -28,7 +28,7 @@ include "./core/header.php";
             <button type="button" data-bs-target="#FotoFotoRuangLab-interval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#FotoFotoRuangLab-interval" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#FotoFotoRuangLab-interval" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#FotoFotoRuangLab-interval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            
           </div>
           <div class="carousel-inner ">
             <div class="carousel-item active" data-bs-interval="10000">
@@ -52,13 +52,6 @@ include "./core/header.php";
                 <p></p>
               </div>
             </div>
-            <div class="carousel-item">
-              <img src="./img/Ruang_Ujian/ujian3.jpeg" class="" alt="Ruang Lab RPL">
-              <div class="carousel-caption">
-                <h5>Ujian Berbasis Komputer</h5>
-                <p></p>
-              </div>
-            </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#FotoFotoRuangLab-interval" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -71,7 +64,7 @@ include "./core/header.php";
         </div>
       </div>
       <div class="container-lg">
-        <h2 class="teks-judul">Pembuka</h2>
+        <h2>Pembuka</h2>
         <hr>
         <p style="text-align: justify;">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem illo praesentium magni eligendi pariatur et neque mollitia dolor quia dolore! Soluta voluptas sint architecto, nemo recusandae earum ducimus quas suscipit?

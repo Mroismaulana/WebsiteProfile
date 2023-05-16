@@ -63,7 +63,7 @@ include "./core/header.php";
         </div>
       </div>
       <div class="container-lg">
-        <h2 class="teks-judul">Pembuka</h2>
+        <h2>Pembuka</h2>
         <hr>
         <p style="text-align: justify;">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem illo praesentium magni eligendi pariatur et neque mollitia dolor quia dolore! Soluta voluptas sint architecto, nemo recusandae earum ducimus quas suscipit?

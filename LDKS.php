@@ -17,7 +17,7 @@ include("./core/header.php");
   
   <?php navbar("ldks");?>
   <div class="container-xxl kotak ">
-    <h1 class="teks-judul" style="text-align: center; margin-top: 0.2em;">LDKS</h1>
+    <h1 class="teks-judul" style="text-align: center; margin-top: 0.2em; background-color: #3F5A6F; color: white;">LDKS</h1>
       <hr>
       <div class="container-fluid">
         <div id="FotoFotoRuangLab-interval" class="carousel slide" data-bs-ride="carousel">

@@ -25,23 +25,23 @@ include('./core/header.php');
     <div class="row">
       <div class="col">
         <img class="guru-img" src="img/P1.jpg" alt="Kepala Sekolah">
-        <h2>Kepala Bimbingan Konseling</h2>
+        <h2>Kepala Sekolah</h2>
         <p>Reza Pahlevi S.pd</p>
       </div>
       <div class="col kanan">
         <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
-        <h2>Kepala Sekolah</h2>
+        <h2>Wakil Kesiswaan</h2>
         <p>Devy Arintika S.pd</p>
       </div>
       <div class="col">
         <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
-        <h2>Wakil Kesiswaan</h2>
-        <p>Devy Arintika S.pd</p>
+        <h2>Bimbingan Konseling</h2>
+        <p>Rusmini S.pd</p>
       </div>
       <div class="col kanan">
         <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
-        <h2>Kepala Program Otkp</h2>
-        <p>Devy Arintika S.pd</p>
+        <h2>Kepala Program OTKP</h2>
+        <p>Firmansyah S.pd</p>
       </div>
       <div class="col">
         <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
@@ -51,7 +51,7 @@ include('./core/header.php');
       <div class="col kanan">
         <img class="guru-img" src="img/P1.jpg" alt="Wakil Kesiswaan">
         <h2>Kepala Perogram RPL</h2>
-        <p>Devy Arintika S.pd</p>
+        <p>Retno Wulandari S.kom</p>
       </div>
     </div>
 
