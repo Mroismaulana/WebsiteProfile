@@ -34,7 +34,7 @@ Proyek ini bertujuan untuk mengembangkan sebuah website profil untuk SMK Asyafi'
 
 
 
-## Usage/Examples
+## Gabut
 
 ```python
 from os import system
