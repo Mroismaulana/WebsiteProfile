@@ -11,7 +11,7 @@ Proyek ini bertujuan untuk mengembangkan sebuah website profil untuk SMK Asyafi'
 - [@maul-lq](https://github.com/maul-lq) (TUKANG NGODING | BABU | MASTER)
 - [@Alllwee](https://github.com/Alllwee) (HABIB MASA DEPAN | BABU | MC | INTERNAL)
 
-## Features
+## Fitur
 
 - Halaman Utama (Home)
 - Visi Misi
@@ -25,9 +25,7 @@ Proyek ini bertujuan untuk mengembangkan sebuah website profil untuk SMK Asyafi'
 - Pendaftaran Online
 - DLL.
 
-## Installation
-
-### Cara Pasang
+## Cara Pasang
 1. Install XAMPP (kalo belum punya)
 2. Download File Rilis
 3. Taro File Rilis Di HTDOCS
